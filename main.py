@@ -76,10 +76,12 @@ df["I_motor"] = df["T_drehmoment"] / m_konst
 # Berechnung Maximalleistung
 df["P_max"] = df["P"].max()
 
+# Gesamtzeit für die X-Achse der Plots erstellen
+df["gesamtzeit_s"] = df["dt"].fillna(0).cumsum()
+
 # Enwicklung des Ladezustandes des Akkus über die Fahrt
 def simulation_ladezustand(df, battery : BatteryPack = BatteryPack(capacity_nom_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)):
     """Simulation des Ladezustands des Akkus über die Fahrt"""
-    simulator = BatterySimulator(battery)
 
     df_bereinigt = df.dropna(subset=["dt"]) #ohne erste Zeile, weil keine Werte
 
@@ -88,14 +90,26 @@ def simulation_ladezustand(df, battery : BatteryPack = BatteryPack(capacity_nom_
 
     soc_liste = []
     soc_liste.append(battery.soc * 100)
+
     for i,j in df_bereinigt.iterrows():
         dt = j["dt"]
         I_motor = j["I_motor"]
-    battery.apply_current(I_motor, dt)
-    soc_liste.append(battery.soc * 100) #hinzufügen von soc in %
+        battery.apply_current(I_motor, dt)
+        soc_liste.append(battery.soc * 100) #hinzufügen von soc in %
+
     df["SOC"] = soc_liste
     return df["SOC"]
 
+def plot_ladezustand(df):
+    """ploten des Ladezustandes"""
+    fig, ax = plt.subplots()
+    ax.plot(df["gesamtzeit_s"],df["SOC"],label = "SOC(%)")
+    ax.set_xlabel("t / s")
+    ax.set_ylabel("SOC / %")
+    ax.set_title("Ladezustand des Akkus über die Zeit")
+    ax.grid()
+    ax.legend(loc="upper right")
+    plt.show()
 
 # Ergebnisse speichern
 df.to_csv("Output.csv", index=False)
@@ -119,3 +133,7 @@ for spalte in df.columns:
     plt.grid(True)
 
     plt.show()
+
+if __name__ == "__main__":
+    simulation_ladezustand(df)
+    plot_ladezustand(df)

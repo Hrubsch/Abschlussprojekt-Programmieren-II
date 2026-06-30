@@ -1,4 +1,4 @@
-from battery_pack_start import BatteryPack
+from Akkumodell2.battery_pack_start import BatteryPack
 
 class lifepo4(BatteryPack): 
 

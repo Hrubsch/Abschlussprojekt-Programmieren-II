@@ -1,6 +1,6 @@
-from battery_pack_start import BatteryPack
+from Akkumodell2.battery_pack_start import BatteryPack
 
-from plotting_utils import (
+from Akkumodell2.plotting_utils import (
     plot_current_profile,
     plot_voltage_profile,
     plot_voltage_and_current_profile,
