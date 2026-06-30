@@ -1,11 +1,11 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 g = 9.81
 rho = 1.225              # Luftdichte
-cw = 0.9                 # Luftwiderstandsbeiwert Fahrer + Fahrrad
-A = 0.5                  # Stirnfläche
-m = 100                  # Masse Fahrrad + Fahrer
+A = 0.5625                  # Produkt Stirnfläche, cw-Wert
+m = 80                  # Masse Fahrrad + Fahrer
 
 r_inch = 27                 # Raddurchmesser in inch
 r_m = r_inch * 0.0254        # Raddurchmesser in mm
@@ -38,35 +38,27 @@ df["ds"] = haversine(
     df["lon"].shift()
 )
 
+
 df["dt"] = df["time"].diff().dt.total_seconds() # Zeitdifferenz
 df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
 df["a"] = df["v"].diff() / df["dt"] # Beschleunigung
 df["dh"] = df["ele"].diff() # Höhenänderung
 df["phi"] = np.arctan2(df["dh"], df["ds"]) # Steigungswinkel
 
-df["F_D"] = 0.5 * rho * cw * A * df["v"]**2 # Luftwiderstand
+df["F_D"] = 0.5 * rho * A * df["v"]**2 # Luftwiderstand
 df["F_H"] = m * g * np.sin(df["phi"]) # Hangkraft
 df["F_A"] = m * df["a"] # Beschleunigungskraft
 
 df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"] # Gesamte Antriebskraft
 
+Gesamtstrecke = df["ds"].sum()
+Durchschnittsgeschwindigkeit = df["v"].mean()
+
 # Ergebnisse speichern
-df.to_csv("GPS_Auswertung.csv", index=False)
+#df.to_csv("GPS_Auswertung.csv", index=False)
 
-# Ausgabe
-print(df[[
-    "time",
-    "ds",
-    "v",
-    "a",
-    "phi",
-    "F_D",
-    "F_H",
-    "F_A",
-    "F_Antrieb"
-]].head())
-
-print(f"\nGesamtdistanz: {df['ds'].iloc[-1]:.1f} m")
+print(f"\nGesamtdistanz: {Gesamtstrecke:.1f} m")
+print(f"Durchschnittsgeschwindigkeit: {Durchschnittsgeschwindigkeit:.1f} m/s")
 
 
 #berechnung der Leistung
@@ -81,3 +73,25 @@ df["I_motor"] = df["T_drehmoment"] / m_konst
 # Berechnung Maximalleistung
 df["P_max"] = df["P"].max()
 
+# Ergebnisse speichern
+df.to_csv("Output.csv", index=False)
+
+
+
+
+
+
+# Für jede Spalte einen Graphen erstellen
+for spalte in df.columns:
+    if spalte == "time":
+        continue  # Zeitspalte nicht gegen sich selbst plotten
+
+    plt.figure(figsize=(10, 5))
+    plt.plot(df["time"], df[spalte], linewidth=2)
+
+    plt.title(f"{spalte} über der Zeit")
+    plt.xlabel("Zeit [s]")
+    plt.ylabel(spalte)
+    plt.grid(True)
+
+    plt.show()
