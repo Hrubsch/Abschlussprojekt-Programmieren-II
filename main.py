@@ -7,6 +7,10 @@ cw = 0.9                 # Luftwiderstandsbeiwert Fahrer + Fahrrad
 A = 0.5                  # Stirnfläche
 m = 100                  # Masse Fahrrad + Fahrer
 
+r_inch = 27                 # Raddurchmesser in inch
+r_m = r_inch * 0.0254        # Raddurchmesser in mm
+m_konst = 1.5               # Motorkonstante Nm/A
+
 df = pd.read_csv("final_project_input_data.csv", sep=";") # Einlesen der CSV-Datei
 df["time"] = pd.to_datetime(df["time"])
 
@@ -63,3 +67,17 @@ print(df[[
 ]].head())
 
 print(f"\nGesamtdistanz: {df['ds'].iloc[-1]:.1f} m")
+
+
+#berechnung der Leistung
+df["P"] = df["F_Antrieb"] * df ["v"]
+
+# berechnung Drehmoment am Motor in Nm
+df["T_drehmoment"] = df["F_Antrieb"] * r_m 
+
+# berechnung Motorstrom bei bekannter Motorkonstante
+df["I_motor"] = df["T_drehmoment"] / m_konst
+
+# Berechnung Maximalleistung
+df["P_max"] = df["P"].max()
+
