@@ -1,6 +1,6 @@
-from .battery_pack_start import BatteryPack
+from battery_pack_start import BatteryPack
 import matplotlib.pyplot as plt
-from .plotting_utils import (
+from plotting_utils import (
     plot_current_profile,
     plot_voltage_profile,
     plot_voltage_and_current_profile,
@@ -44,7 +44,7 @@ class BatterySimulator:
     def plot_ladezustand(self, df):
         """ploten des Ladezustandes"""
         fig, ax = plt.subplots()
-        ax.plot(df["gesamtzeit_s"],df["SOC"] * 100,label = "SOC(%)")
+        ax.plot(df["Gesamtzeit"],df["SOC"] * 100,label = "SOC(%)")
         ax.set_xlabel("t / s")
         ax.set_ylabel("SOC / %")
         ax.set_title("Ladezustand des Akkus über die Zeit")
