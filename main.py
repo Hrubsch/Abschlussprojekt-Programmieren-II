@@ -2,18 +2,34 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-g = 9.81
-rho = 1.225              # Luftdichte
-A = 0.5625                  # Produkt Stirnfläche, cw-Wert
-m = 80                  # Masse Fahrrad + Fahrer
+def Kenngroessen(df):
+    # Maximalleistung
+    P_max = df["P"].max()
 
-r_inch = 27                 # Raddurchmesser in inch
-r_m = r_inch * 0.0254        # Raddurchmesser in mm
-m_konst = 1.5               # Motorkonstante Nm/A
+    # Gesamtstrecke
+    Gesamtstrecke = df["ds"].sum()
 
-df = pd.read_csv("final_project_input_data.csv", sep=";") # Einlesen der CSV-Datei
-df["time"] = pd.to_datetime(df["time"])
+    # Durchschnittsgeschwindigkeit
+    Durchschnittsgeschwindigkeit = df["v"].mean()
 
+    # Gesamtzeit
+    Gesamtzeit = df["time"].iloc[-1] - df["time"].iloc[0]
+
+    # Höhenänderungen
+    hoehenaenderung = df["ele"].diff()
+
+    # Gesamter Anstieg und Abstieg
+    anstieg = hoehenaenderung[hoehenaenderung > 0].sum()
+    abstieg = -hoehenaenderung[hoehenaenderung < 0].sum()
+
+    return {
+        "P_max": P_max,
+        "Gesamtstrecke": Gesamtstrecke,
+        "Durchschnittsgeschwindigkeit": Durchschnittsgeschwindigkeit,
+        "Gesamtzeit": Gesamtzeit,
+        "Anstieg": anstieg,
+        "Abstieg": abstieg
+    }
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371000
@@ -30,61 +46,60 @@ def haversine(lat1, lon1, lat2, lon2):
 
     return R*c
 
-# Strecke
-df["ds"] = haversine(
-    df["lat"],
-    df["lon"],
-    df["lat"].shift(),
-    df["lon"].shift()
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    g = 9.81
+    rho = 1.225              # Luftdichte
+    A = 0.5625                  # Produkt Stirnfläche, cw-Wert
+    m = 80                  # Masse Fahrrad + Fahrer
+    r_inch = 27                 # Raddurchmesser in inch
+    r_m = r_inch * 0.0254        # Raddurchmesser in mm
+    m_konst = 1.5               # Motorkonstante Nm/A
+
+    df = pd.read_csv("final_project_input_data.csv", sep=";") # Einlesen der CSV-Datei
+    df["time"] = pd.to_datetime(df["time"])
+
+    df["ds"] = haversine(# Strecke
+        df["lat"],
+        df["lon"],
+        df["lat"].shift(),
+        df["lon"].shift()
 )
-
-
-df["dt"] = df["time"].diff().dt.total_seconds() # Zeitdifferenz
-df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
-df["a"] = df["v"].diff() / df["dt"] # Beschleunigung
-df["dh"] = df["ele"].diff() # Höhenänderung
-df["phi"] = np.arctan2(df["dh"], df["ds"]) # Steigungswinkel
-
-df["F_D"] = 0.5 * rho * A * df["v"]**2 # Luftwiderstand
-df["F_H"] = m * g * np.sin(df["phi"]) # Hangkraft
-df["F_A"] = m * df["a"] # Beschleunigungskraft
-
-df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"] # Gesamte Antriebskraft
-
-Gesamtstrecke = df["ds"].sum()
-Durchschnittsgeschwindigkeit = df["v"].mean()
-
-# Ergebnisse speichern
-#df.to_csv("GPS_Auswertung.csv", index=False)
-
-print(f"\nGesamtdistanz: {Gesamtstrecke:.1f} m")
-print(f"Durchschnittsgeschwindigkeit: {Durchschnittsgeschwindigkeit:.1f} m/s")
-
-
-#berechnung der Leistung
-df["P"] = df["F_Antrieb"] * df ["v"]
-
-# berechnung Drehmoment am Motor in Nm
-df["T_drehmoment"] = df["F_Antrieb"] * r_m 
-
-# berechnung Motorstrom bei bekannter Motorkonstante
-df["I_motor"] = df["T_drehmoment"] / m_konst
-
-# Berechnung Maximalleistung
-df["P_max"] = df["P"].max()
-
-# Ergebnisse speichern
-df.to_csv("Output.csv", index=False)
+    df["dt"] = df["time"].diff().dt.total_seconds() # Zeitdifferenz
+    df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
+    df["a"] = df["v"].diff() / df["dt"] # Beschleunigung
+    df["dh"] = df["ele"].diff() # Höhenänderung
+    df["phi"] = np.arctan2(df["dh"], df["ds"]) # Steigungswinkel
+    df["F_D"] = 0.5 * rho * A * df["v"]**2 # Luftwiderstand
+    df["F_H"] = m * g * np.sin(df["phi"]) # Hangkraft
+    df["F_A"] = m * df["a"] # Beschleunigungskraft
+    df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"] # Gesamte Antriebskraft
+    df["P"] = (df["F_Antrieb"] * df ["v"]) / df["dt"]#berechnung der Leistung
+    df["T_drehmoment"] = df["F_Antrieb"] * r_m # berechnung Drehmoment am Motor in Nm
+    df["I_motor"] = df["T_drehmoment"] / m_konst # berechnung Motorstrom bei bekannter Motorkonstante
 
 
 
+    results = Kenngroessen(df)
+    print(f"\nGesamtdistanz: {results['Gesamtstrecke']:.1f} m")
+    print(f"Durchschnittsgeschwindigkeit: {results['Durchschnittsgeschwindigkeit']:.1f} m/s")
+    print(f"Maximalleistung: {results['P_max']:.1f} W")
+    print(f"Gesamtzeit: {results['Gesamtzeit']}")
+    print(f"Gesamter Anstieg: {results['Anstieg']:.1f} m")
+    print(f"Gesamter Abstieg: {results['Abstieg']:.1f} m")
 
+    # Ergebnisse speichern
+    df.to_csv("Output.csv", index=False)
 
-
-# Für jede Spalte einen Graphen erstellen
 for spalte in df.columns:
-    if spalte == "time":
-        continue  # Zeitspalte nicht gegen sich selbst plotten
+    if spalte in ["lat", "lon", "ele", "time", "ds", "dt", "phi", "F_D", "F_H", "F_A", "F_Antrieb", "dh"]:
+        continue
 
     plt.figure(figsize=(10, 5))
     plt.plot(df["time"], df[spalte], linewidth=2)
@@ -94,4 +109,5 @@ for spalte in df.columns:
     plt.ylabel(spalte)
     plt.grid(True)
 
-    plt.show()
+    plt.savefig(f"{spalte}.png", dpi=300, bbox_inches="tight")
+    plt.close()
