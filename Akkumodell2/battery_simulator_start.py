@@ -6,7 +6,6 @@ from .plotting_utils import (
     plot_voltage_and_current_profile,
 )
 
-
 class BatterySimulator:
     """Simple simulator for a battery pack. The simulator applies a current profile to the battery pack and records the voltage profile."""
 
