@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 from battery_pack_start import BatteryPack
 
 class lifepo(BatteryPack): 
@@ -39,21 +40,41 @@ class nmc(BatteryPack):
     
 
 if __name__ == "__main__":
-    b1 = BatteryPack(10.0)
-    b2 = lifepo(10.0)
 
-    print(b1)
-    print(b2)
+    try:
+        # Versuch, eine Batterie mit fehlerhaftem SoC (150%) zu erstellen
+        falscher_akku = lifepo(initial_soc=1.5)
+    except ValueError as e:
+        print(f"Fehler erfolgreich abgefangen: {e}\n")
 
-    b1.apply_current(10,120)
-    b2.apply_current(10,120)
-
-    print(b1)
-    print(b2)
+    b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
+    b2 = nmc(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
     
-    batteries = [b1,b2]
+    # test der entladung
+    print("Entlade Batterien schrittweise")
+    for _ in range(5):
+        b1.apply_current(current=50.0, duration=300) 
+        b2.apply_current(current=50.0, duration=300)
 
-    for b in batteries:
-        print(b)
-        b.apply_current(10,120)
-        print(b)
+    print(f"Endzustand nach Entladung: Batterie1:{b1} und Batterie2:{b2}")
+
+    #test der kennlinie der beiden akkutypen
+    soc_axis = np.linspace(0, 1, 100)
+    uoc_lifepo_plot = []
+    uoc_nmc_plot = []
+    
+    for s in soc_axis:
+        akku_lfp = lifepo(initial_soc=s)
+        akku_nmc = nmc(initial_soc=s)
+        uoc_lifepo_plot.append(akku_lfp.uoc())
+        uoc_nmc_plot.append(akku_nmc.uoc())
+
+    #ploten des tests
+    fig, ax = plt.subplots()
+    ax.plot(soc_axis * 100, uoc_lifepo_plot, label = "LiPo Akku Kennlinie")
+    ax.plot(soc_axis * 100, uoc_nmc_plot, label = "NMC Akku Kennlinie")
+    ax.set_xlabel("SOC / %")
+    ax.set_ylabel("Uoc / V")
+    ax.grid()
+    ax.legend(loc="upper right")
+    plt.show()
