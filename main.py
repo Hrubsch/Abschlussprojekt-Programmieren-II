@@ -1,7 +1,10 @@
 import pandas as pd
 import numpy as np
-#from Akkumodell2.battery_simulator_start import BatterySimulator
-#from Akkumodell2.battery_pack_start import BatteryPack
+from Akkumodell2.battery_simulator_start import BatterySimulator
+from Akkumodell2.battery_pack_start import BatteryPack
+from Akkumodell2.Akku import lifepo
+from Akkumodell2.Akku import nmc
+
 
 import matplotlib.pyplot as plt
 
@@ -150,6 +153,16 @@ for spalte in df.columns:
         plt.title(f"Höhenprofil über der Zeit")
         plt.ylabel(f"{spalte} [m]")
 
+    plt.show()
+
+
+    b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
+    b2 = nmc(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
+    simulatorb1 = BatterySimulator(b1)
+    simulatorb2 = BatterySimulator(b2)
+
+    simulatorb1.simulation_ladezustand(df)
+    simulatorb1.plot_ladezustand(df)
 
     plt.grid(True)
     plt.savefig(f"{spalte}.png", dpi=300, bbox_inches="tight")

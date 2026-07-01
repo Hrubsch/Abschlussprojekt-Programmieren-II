@@ -1,3 +1,7 @@
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
 class BatteryPack:
     """
     Simple model of a battery pack as a single cell.
@@ -5,37 +9,51 @@ class BatteryPack:
     The open circuit voltage is a linear function of the state of charge (SoC).
     The SoC is updated based on the applied current and duration.
     """
-
     def __init__(
         self,
-        capacity_nom_Ah: float,
-        internal_resistance_mOhm: float = 80.0,
+        capacity_nom_cell_Ah : float = 10,
         initial_soc: float = 1.0,
-        Vmin: float = 3.0,
-        Vmax: float = 4.2,
+        anz_parallel = 2,
+  
     ):
-        self.capacity_nom_As = capacity_nom_Ah * 60 * 60 # ah in as umwandeln
-        self.internal_resistance_mOhm = internal_resistance_mOhm /1000 # mOhm in Ohm
+        self.anz_parallel = anz_parallel
+        self.anz_serie = 10
+        self.internal_resistance_cell_mOhm = 8
+        self.internal_resistance_pack_mOhm = self.anz_serie * self.internal_resistance_cell_mOhm / self.anz_parallel
+        self.internal_resistance_pack_Ohm = self.internal_resistance_pack_mOhm  /1000 # mOhm in Ohm
+        self.capacity_nom_As = capacity_nom_cell_Ah * anz_parallel * 60 * 60 # ah in as umwandeln
+        self.vmin = 3.2 * self.anz_serie
+        self.vmax = 4.2 * self.anz_serie
+
+        if not (0.0 <= initial_soc <= 1.0):
+            raise ValueError(f"Ungültiger initial_soc: {initial_soc}. Der SoC muss zwischen 0.0 und 1.0 liegen!")
+        
         self.soc = initial_soc
-        self.vmin = Vmin
-        self.vmax = Vmax
+
 
     def apply_current(self, current: float, duration: float) -> None:
         """Modify the SoC based on the applied current & duration"""
         self.soc = self.soc - (current * duration ) / self.capacity_nom_As
         self.soc = max(0, min(1, self.soc))
+        if self.soc == 0:
+            logging.warning("Batterie ist vollständig entladen!")
+        if self.soc == 1:
+            logging.info("Batterie ist vollständig geladen.")
 
     def is_empty(self) -> bool:
         pass
 
     def is_full(self) -> bool:
         pass
+    
+    def uoc(self) -> float:
+        return self.vmin + self.soc * (self.vmax - self.vmin)
 
     def voltage(self, current: float = 0.0) -> float:
         """Return the current voltage of the battery at the SoC and the given current flow"""
-        uoc = self.vmin + self.soc * (self.vmax - self.vmin)
-        u = uoc - self.internal_resistance_mOhm * current
-        return u 
+        # uoc = self.vmin + self.soc * (self.vmax - self.vmin)
+        u = self.uoc() - self.internal_resistance_pack_Ohm * current
+        return max(0.0,u) 
 
     def __str__(self):
         return f"BatteryPack(SoC={self.soc * 100:.1f}%, V={self.voltage():.2f} V)"
