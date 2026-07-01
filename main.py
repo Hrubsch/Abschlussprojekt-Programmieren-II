@@ -154,6 +154,11 @@ for spalte in df.columns:
         plt.ylabel(f"{spalte} [m]")
 
     plt.show()
+    plt.grid(True)
+    plt.savefig(f"{spalte}.png", dpi=300, bbox_inches="tight")
+    plt.close()
+
+
 
 
     b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
@@ -164,6 +169,3 @@ for spalte in df.columns:
     simulatorb1.simulation_ladezustand(df)
     simulatorb1.plot_ladezustand(df)
 
-    plt.grid(True)
-    plt.savefig(f"{spalte}.png", dpi=300, bbox_inches="tight")
-    plt.close()
