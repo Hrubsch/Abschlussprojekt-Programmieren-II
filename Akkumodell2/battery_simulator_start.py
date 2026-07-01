@@ -6,7 +6,6 @@ from plotting_utils import (
     plot_voltage_and_current_profile,
 )
 
-
 class BatterySimulator:
     """Simple simulator for a battery pack. The simulator applies a current profile to the battery pack and records the voltage profile."""
 
@@ -16,7 +15,7 @@ class BatterySimulator:
 
     def simulate(self, current_profile: list[float], duration_profile: list[float]) -> None:
         self.voltage_profile = []
-        self.voltage_profile.append(self.battery_pack.voltage()) #warum wird das benötigt?
+        self.voltage_profile.append(self.battery_pack.voltage()) 
         
         for i, j in zip(current_profile, duration_profile):
             self.battery_pack.apply_current(i,j)
