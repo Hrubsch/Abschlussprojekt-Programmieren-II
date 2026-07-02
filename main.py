@@ -47,7 +47,8 @@ def haversine(lat1, lon1, lat2, lon2):
     a = np.sin(dlat/2)**2 + np.cos(lat1)*np.cos(lat2)*np.sin(dlon/2)**2
     c = 2*np.arctan2(np.sqrt(a), np.sqrt(1-a))
 
-    return R*c
+    d = R * c
+    return d
 
 #def glaette_gps(df, window=5):
     """
@@ -122,7 +123,9 @@ if __name__ == "__main__":
 
     df = pd.read_csv("final_project_input_data.csv", sep=";") # Einlesen der CSV-Datei
     df = glaette_gps(df)
-    
+
+
+
     df["time"] = pd.to_datetime(df["time"])
     df["time_s"] = (df["time"] - df["time"].iloc[0]).dt.total_seconds()
 
@@ -137,32 +140,34 @@ if __name__ == "__main__":
   
 
     df["dt"] = df["time_s"].diff() # Zeitdifferenz
-
-    df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
-    df.loc[0, "v"] = 0 # erste Zeile korrigieren
-    df.loc[df["v"] > 30, "v"] = np.nan # Geschwindigkeit > 30 m/s löschen
-    df["v"] = df["v"].interpolate() # fehlende Werte interpolieren
-    df["v"] = (df["v"].rolling(window=6, center=True, min_periods=1).mean()) # Glättung der Geschwindigkeit
+    df = df[df["dt"] >= 1].copy()
+    df["s"] = df["ds"].cumsum()
+    df["v"] = np.gradient(df["s"], df["time_s"])
+    #df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
+    #df.loc[0, "v"] = 0 # erste Zeile korrigieren
+    #df.loc[df["v"] > 30, "v"] = np.nan # Geschwindigkeit > 30 m/s löschen
+    #df["v"] = df["v"].interpolate() # fehlende Werte interpolieren
+    #df["v"] = (df["v"].rolling(window=6, center=True, min_periods=1).mean()) # Glättung der Geschwindigkeit
 
     df["a"] = np.gradient(df["v"], df["time_s"])
-    df.loc[0, "a"] = 0 # erste Zeile korrigieren
-    df.loc[df["a"] > 2, "a"] = np.nan # Beschleunigung > 2 m/s² löschen
-    df.loc[df["a"] < -2, "a"] = np.nan # Beschleunigung < -2 m/s² löschen
-    df["a"] = df["a"].interpolate()
+    #df.loc[0, "a"] = 0 # erste Zeile korrigieren
+    #df.loc[df["a"] > 2, "a"] = np.nan # Beschleunigung > 2 m/s² löschen
+    #df.loc[df["a"] < -2, "a"] = np.nan # Beschleunigung < -2 m/s² löschen
+    #df["a"] = df["a"].interpolate()
 
 
 
     #df["a"] = df["v"].diff() / df["dt"] # Beschleunigung
-    df["dh"] = df["ele_glatt"].diff() # Höhenänderung
-    df["phi_rad"] = np.arctan2(df["dh"], df["ds"]) # Steigungswinkel
-    df["phi_grad"] = np.degrees(df["phi_rad"]) # Steigungswinkel in Grad
-    df["F_D"] = 0.5 * rho * A * df["v"]**2 # Luftwiderstand
-    df["F_H"] = m * g * np.sin(df["phi_rad"]) # Hangkraft
-    df["F_A"] = m * df["a"] # Beschleunigungskraft
+    df["dh"] = df["ele_glatt"].diff()                   # Höhenänderung
+    df["phi_rad"] = np.arctan2(df["dh"], df["ds"])      # Steigungswinkel
+    df["phi_grad"] = np.degrees(df["phi_rad"])          # Steigungswinkel in Grad
+    df["F_D"] = 0.5 * rho * A * df["v"]**2              # Luftwiderstand
+    df["F_H"] = (m * g) * np.sin(df["phi_rad"])         # Hangkraft
+    df["F_A"] = m * df["a"]                             # Beschleunigungskraft
     df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"] # Gesamte Antriebskraft
-    df["P"] = df["F_Antrieb"] * df ["v"]#berechnung der Leistung
-    df["T_drehmoment"] = df["F_Antrieb"] * (r_m/2) # berechnung Drehmoment am Motor in Nm
-    df["I_motor"] = df["T_drehmoment"] / m_konst # berechnung Motorstrom bei bekannter Motorkonstante
+    df["P"] = df["F_Antrieb"] * df ["v"]                # Berechnung der Leistung
+    df["T_drehmoment"] = df["F_Antrieb"] * (r_m/2)      # Berechnung Drehmoment am Motor in Nm
+    df["I_motor"] = df["T_drehmoment"] / m_konst        # Berechnung Motorstrom bei bekannter Motorkonstante
 
 
     #b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
@@ -194,7 +199,7 @@ if __name__ == "__main__":
 
 
     for spalte in df.columns:
-        if spalte in ["lat", "lon", "time", "ds", "dt", "F_D", "F_H", "F_A", "F_Antrieb", "dh", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s"]:
+        if spalte in ["lat", "lon", "time", "ds", "dt", "F_D", "F_H", "F_A", "dh", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s"]:
             continue
 
         plt.figure(figsize=(10, 5))
