@@ -1,6 +1,6 @@
-from battery_pack_start import BatteryPack
+from .battery_pack_start import BatteryPack
 import matplotlib.pyplot as plt
-from plotting_utils import (
+from .plotting_utils import (
     plot_current_profile,
     plot_voltage_profile,
     plot_voltage_and_current_profile,
