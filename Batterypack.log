@@ -23,3 +23,47 @@
 2026-07-06 20:02:43,133:WARNING: [Zeile 1] Negativer Zeitschritt dt=-5.0 erkannt. Überspringe Schritt.
 2026-07-06 20:02:43,134:ERROR: [Zeile 3] Ungültiger Datentyp in den Daten: '<' not supported between instances of 'str' and 'int'. Zeile übersprungen.
 2026-07-06 20:02:43,134:INFO: Simulation beendet. 4 Werte verarbeitet.
+2026-07-06 21:06:50,431:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:06:50,457:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:17:05,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:17:05,970:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:17:41,479:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:17:41,506:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:22:49,472:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:22:49,499:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:23:35,628:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:23:35,628:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:23:35,628:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:23:35,629:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:23:35,629:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:23:35,655:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:24:51,580:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:24:51,580:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:25:07,082:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:29:45,178:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:29:45,207:INFO: Simulation beendet. 2130 Werte verarbeitet.
