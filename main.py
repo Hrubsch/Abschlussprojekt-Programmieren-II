@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-from Akkumodell2.battery_simulator_start import BatterySimulator
-from Akkumodell2.battery_pack_start import BatteryPack
-from Akkumodell2.Akku import lifepo
-from Akkumodell2.Akku import nmc
+#from Akkumodell2.battery_simulator_start import BatterySimulator
+#from Akkumodell2.battery_pack_start import BatteryPack
+#from Akkumodell2.Akku import lifepo
+#from Akkumodell2.Akku import nmc
 
 
 import matplotlib.pyplot as plt
@@ -50,59 +50,6 @@ def haversine(lat1, lon1, lat2, lon2):
     d = R * c
     return d
 
-#def glaette_gps(df, window=5):
-    """
-    Glättet die GPS-Koordinaten mittels gleitendem Mittelwert.
-
-    Parameter:
-        df : pandas.DataFrame
-            DataFrame mit den Spalten 'lat' und 'lon'
-        window : int
-            Fenstergröße der Glättung (ungerade Zahl empfohlen)
-
-    Rückgabe:
-        DataFrame mit den zusätzlichen Spalten
-        'lat_glatt' und 'lon_glatt'
-    """
-
-    df = df.copy()
-
-    df["lat_glatt"] = (
-        df["lat"]
-        .rolling(window=window, center=True, min_periods=1)
-        .mean()
-    )
-
-    df["lon_glatt"] = (
-        df["lon"]
-        .rolling(window=window, center=True, min_periods=1)
-        .mean()
-    )
-
-    return df
-
-
-
-# Enwicklung des Ladezustandes des Akkus über die Fahrt
-#def simulation_ladezustand(df, battery : BatteryPack = BatteryPack(capacity_nom_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)):
-    """Simulation des Ladezustands des Akkus über die Fahrt"""
-    simulator = BatterySimulator(battery)
-
-    df_bereinigt = df.dropna(subset=["dt"]) #ohne erste Zeile, weil keine Werte
-
-    #current_list = df_bereinigt["I_motor"].to_list()
-    #duration_list = df_bereinigt["dt"].to_list()
-
-    soc_liste = []
-    soc_liste.append(battery.soc * 100)
-    for i,j in df_bereinigt.iterrows():
-        dt = j["dt"]
-        I_motor = j["I_motor"]
-    battery.apply_current(I_motor, dt)
-    soc_liste.append(battery.soc * 100) #hinzufügen von soc in %
-    df["SOC"] = soc_liste
-    return df["SOC"]
-
 def glaette_gps(df):
     df = df.copy()
     df["lat_glatt"] = df["lat"].rolling(window=10).mean()
@@ -110,22 +57,28 @@ def glaette_gps(df):
     df["ele_glatt"] = df["ele"].rolling(window=10).mean()
     return df
 
+def luftdruck_berechnung(rho_0, M, g, R, temp, h):
 
+    T = temp + 273.15  # Umrechnung von °C in Kelvin
+    rho = rho_0 * np.exp((-M * g * h) / (R * T))
+    return rho
 
-if __name__ == "__main__":
+def simulation(df, masse, A, r_inch):
     g = 9.81
-    rho = 1.225              # Luftdichte
-    A = 0.5625                  # Produkt Stirnfläche, cw-Wert
-    m = 80                  # Masse Fahrrad + Fahrer
-    r_inch = 27                 # Raddurchmesser in inch
-    r_m = r_inch * 0.0254        # Raddurchmesser in mm
+    #rho = 1.225                # Luftdichte
+    m = masse                     # Masse Fahrrad + Fahrer
+    A = A                         # Produkt Stirnfläche, cw-Wert
+    r_inch = r_inch               # Raddurchmesser in inch
+    r_m = r_inch * 0.0254       # Raddurchmesser in mm
     m_konst = 1.5               # Motorkonstante Nm/A
+    rho_0 = 1.225               # Luftdichte auf Meereshöhe (ca. 1,225 kg/m³)
+    M = 0.02896                 # Molare Masse der Luft (≈ 0,02896 kg/mol)
+    g = 9.81                    # Erdbeschleunigung (≈ 9,81 m/s²)
+    R = 8.314                   # Universelle Gaskonstante (\(8{,}314 \text{ J/(mol}\cdot\text{K)}\))
+    T = 273.15                  # Absolute Temperatur in Kelvin (T in °C + 273,15)
 
-    df = pd.read_csv("final_project_input_data.csv", sep=";") # Einlesen der CSV-Datei
     df = glaette_gps(df)
-
-
-
+    
     df["time"] = pd.to_datetime(df["time"])
     df["time_s"] = (df["time"] - df["time"].iloc[0]).dt.total_seconds()
 
@@ -137,14 +90,11 @@ if __name__ == "__main__":
         df["lon_glatt"]
     )
 
-  
 
-    df["dt"] = df["time_s"].diff() # Zeitdifferenz
-    df = df[df["dt"] >= 1].copy()
-    df["s"] = df["ds"].cumsum()
+    df["dt"] = df["time_s"].diff()  # Zeitdifferenz
+    df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
 
-    #df["v"] = np.gradient(df["s"], df["time_s"])
-    #df["v"] = df["v"].rolling(window=6, center=True, min_periods=1).mean() # Glättung der Geschwindigkeit
+    df["s"] = df["ds"].cumsum()     # zurückgelegte Strecke
 
     df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
     df.loc[df["v"] > 30, "v"] = np.nan # Geschwindigkeit > 30 m/s löschen
@@ -158,40 +108,50 @@ if __name__ == "__main__":
     df["a"] = df["a"].rolling(window=25, center=True, min_periods=1).mean() # Glättung der Beschleunigung
 
 
+    df["dh"] = df["ele_glatt"].diff()                                                               # Höhenänderung
+    df["phi_rad"] = np.arctan2(df["dh"], df["ds"])                                                  # Steigungswinkel
+    
+    df.loc[df["phi_rad"] < -0.174533, "phi_rad"] = np.nan                                           # Winkel < -10° löschen
+    df["phi_rad"] = df["phi_rad"].interpolate()                                                     # fehlende Werte interpolieren
+    df["phi_rad"] = df["phi_rad"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Steigungswinkels
+    df["phi_grad"] = np.degrees(df["phi_rad"])                                                      # Steigungswinkel in Grad
+    
+    df["rho"] = luftdruck_berechnung(rho_0, M, g, R, T, df["ele_glatt"])                                     # Luftdichte in Abhängigkeit der Höhe
 
-    #df["a"] = df["v"].diff() / df["dt"] # Beschleunigung
-    df["dh"] = df["ele_glatt"].diff()                   # Höhenänderung
-    df["phi_rad"] = np.arctan2(df["dh"], df["ds"])      # Steigungswinkel
-    df.loc[df["phi_rad"] < -0.174533, "phi_rad"] = np.nan # Beschleunigung > 2 m/s² löschen
-    df["phi_rad"] = df["phi_rad"].interpolate() # fehlende Werte interpolieren
-    df["phi_rad"] = df["phi_rad"].rolling(window=25, center=True, min_periods=1).mean() # Glättung des Steigungswinkels
-    df["phi_grad"] = np.degrees(df["phi_rad"])          # Steigungswinkel in Grad
-    df["F_D"] = 0.5 * rho * A * df["v"]**2              # Luftwiderstand
-    df["F_H"] = (m * g) * np.sin(df["phi_rad"])         # Hangkraft
-    df["F_A"] = m * df["a"]                             # Beschleunigungskraft
-    df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"] # Gesamte Antriebskraft
-    df["F_Antrieb"] = df["F_Antrieb"].rolling(window=25, center=True, min_periods=1).mean() # Glättung der Antriebskraft
-    df["P"] = df["F_Antrieb"] * df ["v"]                # Berechnung der Leistung
-    df["P"] = df["P"].rolling(window=25, center=True, min_periods=1).mean() # Glättung der Leistung
-    df["T_drehmoment"] = df["F_Antrieb"] * (r_m/2)      # Berechnung Drehmoment am Motor in Nm
-    df["T_drehmoment"] = df["T_drehmoment"].rolling(window=25, center=True, min_periods=1).mean() # Glättung des Drehmoments
-    df["I_motor"] = df["T_drehmoment"] / m_konst        # Berechnung Motorstrom bei bekannter Motorkonstante
-    df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean() # Glättung des Motorstroms   
+    df["F_D"] = 0.5 * df["rho"] * A * df["v"]**2                                                          # Luftwiderstand
+    df["F_H"] = (m * g) * np.sin(df["phi_rad"])                                                     # Hangkraft
+    
+    df["F_A"] = m * df["a"]                                                                         # Beschleunigungskraft
+    
+    df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"]                                             # Gesamte Antriebskraft
+    df["F_Antrieb"] = df["F_Antrieb"].rolling(window=25, center=True, min_periods=1).mean()         # Glättung der Antriebskraft
+    
+    df["P"] = df["F_Antrieb"] * df ["v"]                                                            # Berechnung der Leistung
+    df["P"] = df["P"].rolling(window=25, center=True, min_periods=1).mean()                         # Glättung der Leistung
+    
+    df["T_drehmoment"] = df["F_Antrieb"] * (r_m/2)                                                  # Berechnung Drehmoment am Motor in Nm
+    df["T_drehmoment"] = df["T_drehmoment"].rolling(window=25, center=True, min_periods=1).mean()   # Glättung des Drehmoments
+    
+    df["I_motor"] = df["T_drehmoment"] / m_konst                                                    # Berechnung Motorstrom bei bekannter Motorkonstante
+    df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
 
 
-    b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
-    b2 = nmc(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
-    simulatorb1 = BatterySimulator(b1)
-    simulatorb2 = BatterySimulator(b2)
+    #b1 = lifepo(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
+    #b2 = nmc(capacity_nom_cell_Ah=10.0, initial_soc=1.0)
+    #simulatorb1 = BatterySimulator(b1)
+    #simulatorb2 = BatterySimulator(b2)
 
-    simulatorb1.simulation_ladezustand(df)
-    simulatorb1.plot_ladezustand(df)
+    #simulatorb1.simulation_ladezustand(df)
+    #simulatorb1.plot_ladezustand(df)
 
 
 # Ergebnisse speichern
+    return df
+
+
+
+def Output(df):
     df.to_csv("Output.csv", index=False)
-
-
 
     results = Kenngroessen(df)
     print(f"\nGesamtdistanz: {results['Gesamtstrecke']:.1f} m")
@@ -203,9 +163,6 @@ if __name__ == "__main__":
 
     # Ergebnisse speichern
     df.to_csv("Output.csv", index=False)
-
-
-
 
     for spalte in df.columns:
         if spalte in ["lat", "lon", "time", "ele", "ele_glatt", "ds", "dt", "dh","F_D", "F_H", "F_A", "F_Antrieb", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s"]:
@@ -238,7 +195,53 @@ if __name__ == "__main__":
         plt.savefig(f"{spalte}.png", dpi=300, bbox_inches="tight")
         plt.close()
 
+    return results
+
+def parameterstudie(
+    df: pd.DataFrame,
+    parameter,
+    werte,
+    kennwert = "P_max"
+):
+    x = []
+    y = []
+    for wert in werte:
+        parameter_dict = {
+            "masse": 80,
+            "A": 0.5625,
+            "r_inch": 27
+        }
+        parameter_dict[parameter] = wert
+        df = simulation(df.copy(), **parameter_dict)
+        results = Kenngroessen(df)
+        x.append(wert)
+        y.append(results[kennwert])
+    plt.figure(figsize=(8,5))
+    plt.plot(
+        x,
+        y,
+        marker="o",
+        linewidth=2
+    )
+
+    plt.xlabel(parameter)
+    plt.ylabel(kennwert)
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(
+        f"Parameterstudie_{parameter}_{kennwert}.png",
+        dpi=300
+    )
 
 
+if __name__ == "__main__":
+    df = pd.read_csv("final_project_input_data.csv", sep=";")
+    results = {}
+    df = simulation(df, masse=80, A=0.5625, r_inch=27)
+    Output(df)
+
+    parameterstudie(df, parameter="masse", werte=np.arange(60,121,5))
+    parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
+    parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
 
 
