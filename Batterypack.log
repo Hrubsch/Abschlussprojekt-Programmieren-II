@@ -1322,3 +1322,1093 @@
 2026-07-07 20:42:42,613:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
 2026-07-07 20:43:15,833:INFO: Reverse Geocoding erfolgreich beendet
 >>>>>>> reverseGeocoding
+2026-07-07 21:19:15,932:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:19:15,934:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:19:15,976:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:19:19,865:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:19:20,079:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:19:20,080:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:19:20,098:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:19:20,222:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,257:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,278:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,301:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,327:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,350:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,372:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,391:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,410:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 684: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,431:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 760: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,453:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 836: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,472:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 912: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,499:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 988: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,522:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1064: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,548:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1140: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,569:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1216: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,590:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1292: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,612:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1368: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,632:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1444: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,651:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1520: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:25,444:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783451964 2679176602</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:19:25,445:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1596: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:19:28,804:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1672: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:28,967:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1748: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:29,754:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1824: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:29,948:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1900: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:30,697:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1976: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:30,899:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2052: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,310:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2128: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,599:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2204: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,985:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2280: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,985:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:20:21,584:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:20:21,585:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:20:21,588:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:20:21,633:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:20:25,141:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:20:25,335:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:20:25,336:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:20:25,362:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:20:30,922:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6332-VIE 1783452028 1910263120</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:30,923:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:35,016:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783452033 2043070012</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:35,016:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:39,408:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783452038 2680591245</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:39,408:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:43,914:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6337-VIE 1783452042 4010564100</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:43,915:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:45,961:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,117:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,473:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,678:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,859:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 684: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,192:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 760: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,346:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 836: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,491:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 912: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,112:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 988: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,334:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1064: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,505:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1140: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,664:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1216: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,038:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1292: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,343:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1368: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,483:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1444: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,646:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1520: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,956:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1596: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,997:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1672: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:50,039:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1748: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:50,082:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1824: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:55,784:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6362-VIE 1783452054 1979887649</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:55,784:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1900: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:01,629:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783452060 1482665019</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:01,629:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1976: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:05,930:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783452064 1781008557</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:05,930:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2052: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:11,104:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6356-VIE 1783452069 2275599523</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:11,104:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2128: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:17,286:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6324-VIE 1783452075 1680858514</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:17,287:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2204: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:18,801:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2280: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:21:18,802:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:27:27,415:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:27:27,417:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:27:27,467:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:27:30,979:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:27:31,186:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:27:31,186:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:27:31,215:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:27:36,700:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6379-VIE 1783452454 3970191914</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:36,734:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:27:37,736:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:42,539:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6342-VIE 1783452461 3261489633</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:42,539:WARNING: API-Fehler bei Zeile 152: Non-successful status code 429
+2026-07-07 21:27:43,540:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:49,105:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6380-VIE 1783452467 633649820</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:49,105:WARNING: API-Fehler bei Zeile 228: Non-successful status code 429
+2026-07-07 21:27:50,107:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:54,799:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6325-VIE 1783452473 4264863660</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:54,799:WARNING: API-Fehler bei Zeile 304: Non-successful status code 429
+2026-07-07 21:27:55,800:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:01,173:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6340-VIE 1783452479 1183669598</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:01,173:WARNING: API-Fehler bei Zeile 380: Non-successful status code 429
+2026-07-07 21:28:02,173:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:07,938:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6334-VIE 1783452486 2568136880</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:07,938:WARNING: API-Fehler bei Zeile 456: Non-successful status code 429
+2026-07-07 21:28:08,939:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:14,587:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6342-VIE 1783452492 3262084785</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:14,587:WARNING: API-Fehler bei Zeile 532: Non-successful status code 429
+2026-07-07 21:28:15,588:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:20,427:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6364-VIE 1783452499 683517396</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:20,427:WARNING: API-Fehler bei Zeile 608: Non-successful status code 429
+2026-07-07 21:28:21,429:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:29:28,291:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:29:28,295:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:29:28,377:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:29:31,961:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:29:32,210:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:29:32,211:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:29:32,233:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:29:37,435:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6355-VIE 1783452576 504006095</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:29:37,435:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:30:12,732:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:34:04,663:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:34:04,665:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:34:04,706:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:34:08,710:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:34:08,911:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:34:08,911:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:34:10,932:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:34:16,070:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6332-VIE 1783452854 1925064132</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:34:16,070:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:34:22,524:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783452860 1922175698</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:34:22,524:WARNING: API-Fehler bei Zeile 152: Non-successful status code 429
+2026-07-07 21:35:04,177:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:35:51,925:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:35:51,927:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:35:51,975:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:35:55,505:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:35:55,705:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:35:55,705:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:35:59,751:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:36:32,013:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:36:56,064:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:36:56,067:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:36:56,109:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:36:59,610:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:36:59,825:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:36:59,826:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:37:01,868:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:37:33,101:INFO: Reverse Geocoding erfolgreich beendet

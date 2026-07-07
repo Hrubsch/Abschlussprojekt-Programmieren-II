@@ -249,7 +249,7 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
         print("Reverse Geocoding abgebrochen: Keine gültigen GPS-Daten vorhanden.")
         return
 
-    orte = [] 
+    liste_orte = [] 
     letzter_ort = None
     
     # Berechnung der Schrittweite. Wenn // <30 dann schrittweite größer => ungenauer. Wenn // >30 dann schrittweite kleiner => genauer
@@ -257,6 +257,10 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
     
     print("Ermittle Orte entlang der Strecke...")
     logging.info(f"Starte Reverse Geocoding mit {len(df)} Zeilen. Schrittweite: {schrittweite}")
+    # Verhindert, dass die erste Anfrage direkt nach den Karten-Plots blockiert wird
+    time.sleep(2)
+    # Ein eindeutiger user_agent ist für den Nominatim-Dienst zwingend erforderlich
+    geolocator = Nominatim(user_agent="abschlussprojekt_ebike_tour_simulator")
 
     for idx in range(0, len(df), schrittweite):
         try:
@@ -264,18 +268,37 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
 
             # Überspringe Zeilen mit NaN-Werten
             if pd.isna(row["s_orig"]) or pd.isna(row["lat"]) or pd.isna(row["lon"]):
+                logging.warning(f"Zeile {idx} wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.")
                 continue
             
             # API abfragen
-            ort = get_ort(row["lat"], row["lon"])
-            
+            ort = None
+            ort_name = None
+            try: # um API Fehler abzufangen
+                location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+                if location: # true wenn location erkannt wird
+                    address = location.raw.get("address", {})
+                    # Versuche den Stadtnamen oder das Dorf zu erkennen, erkennd kleinste urbane Einheit 
+                    ort_name = address.get("village") or address.get("town") or address.get("city") or address.get("suburb")
+                    # Falls kein spezifischer Ort gefunden wurde, nimm die formatierte Adresse
+                    if ort_name:
+                        ort = ort_name
+                    else:
+                        ort = location.address
+                else:
+                    ort = "Unbekannter Ort"
+            except Exception as e:
+                logging.warning(f"API-Fehler bei Zeile {idx}: {e}")
+                ort = f"Fehler bei der Abfrage ({e})"
+
+
             # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
             time.sleep(1) # durch Warten dauert Funktion ca. 31 sek.
-
+        
             # Speichern, wenn ein Ort gefunden wurde und er neu ist
-            if ort and ort != letzter_ort:
-                orte.append(ort)
-                letzter_ort = ort
+            if ort != letzter_ort:
+                liste_orte.append(ort)
+                letzter_ort = ort_name
 
         except Exception as e:
             # Fängt unerwartete Fehler innerhalb der Schleife ab, damit das Skript nicht abstürzt
@@ -283,7 +306,7 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
             continue
 
     logging.info(f"Reverse Geocoding erfolgreich beendet")
-    return orte
+    return liste_orte
         
   
 
