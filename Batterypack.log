@@ -91,3 +91,11 @@
 2026-07-07 18:03:31,032:INFO: BatterySimulator erfolgreich initialisiert.
 2026-07-07 18:03:31,032:INFO: Starte Simulation des Ladezustands
 2026-07-07 18:03:31,062:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:38:43,452:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: Starte Simulation des Ladezustands
+2026-07-07 18:38:43,482:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:38:45,401:INFO: Start der Karten-Generierung
+2026-07-07 18:38:45,418:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.

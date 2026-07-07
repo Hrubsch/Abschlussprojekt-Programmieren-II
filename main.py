@@ -5,11 +5,14 @@ from battery_simulator_start import BatterySimulator
 from battery_pack_start import BatteryPack
 from Akku import lifepo
 from Akku import nmc
+import logging
 
 
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter1d
 from datetime import datetime
+
+logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterysimulator.log")
 
 def Kenngroessen(df):
     # Maximalleistung
@@ -64,13 +67,30 @@ def luftdruck_berechnung(rho_0, M, g, R, temp, h):
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
 
-def PlotStreckeAufKarte(df : pd.DataFrame):
+def PlotStreckeAufKarte(df : pd.DataFrame) -> None:
+    """
+    Die Originale und geplottete Strecke werden auf einer Folium-Karte geplotet
+    """
+    logging.info("Start der Karten-Generierung")
 
-    # NaN-Werte aus den geglätteten Koordinaten entfernen, da folium diese nicht verarbeiten kann
-    df_map_glatt = df.dropna(subset=["lat_glatt", "lon_glatt"])
-    df_map_orig = df.dropna(subset=["lat", "lon"])
-    
-    if not df_map_glatt.empty and not df_map_orig.empty:
+    try:
+        # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
+        erforderliche_spalten = ["lat", "lon", "lat_glatt", "lon_glatt"]
+        for spalte in erforderliche_spalten:
+            if spalte not in df.columns:
+                raise KeyError(f"Die erforderliche Spalte '{spalte}' fehlt im DataFrame.")
+            
+        # NaN-Werte aus den Koordinaten entfernen, da folium diese nicht verarbeiten kann
+        df_map_glatt = df.dropna(subset=["lat_glatt", "lon_glatt"])
+        df_map_orig = df.dropna(subset=["lat", "lon"])
+
+        # Prüfen, ob DataFrame gefüllt ist mit Werten
+        if df_map_glatt.empty or df_map_orig.empty:
+            logging.warning("Karten-Plot abgebrochen: Keine gültigen GPS-Daten vorhanden.")
+            print("Keine gültigen GPS-Daten zum Plotten der Karte vorhanden.")
+            return
+
+
         # Startpunkt für die Zentrierung der Karte festlegen
         start_lat = df_map_orig["lat"].iloc[0]
         start_lon = df_map_orig["lon"].iloc[0]
@@ -85,6 +105,7 @@ def PlotStreckeAufKarte(df : pd.DataFrame):
         # Koordinaten-Paare für die Linie (PolyLine) vorbereiten
         koordinaten_glatt = list(zip(df_map_glatt["lat_glatt"], df_map_glatt["lon_glatt"]))
         koordinaten_orig = list(zip(df_map_orig["lat"], df_map_orig["lon"]))
+
         # Die gefahrene geglättete Strecke als rote Linie auf der Karte einzeichnen
         folium.PolyLine(
             locations=koordinaten_glatt, 
@@ -93,7 +114,7 @@ def PlotStreckeAufKarte(df : pd.DataFrame):
             opacity=0.8,
             tooltip="Gefahrene Strecke"
         ).add_to(karte)
-        # Die gefahrene original Strecke als grün Linie auf der Karte einzeichnen
+        # Die gefahrene original Strecke als grüne Linie auf der Karte einzeichnen
         folium.PolyLine(
             locations=koordinaten_orig, 
             color="green", 
@@ -118,9 +139,13 @@ def PlotStreckeAufKarte(df : pd.DataFrame):
         # Karte als HTML-Datei speichern
         karte.save("strecke_karte_vergleich.html")
         print("Karte wurde als 'strecke_karte_vergleich.html' gespeichert.")
-    else:
-        print("Keine gültigen GPS-Daten zum Plotten der Karte vorhanden.")
+        logging.info("Karte wurde als 'strecke_karte_vergleich.html' gespeichert.")
 
+    except KeyError as ke:
+        logging.error(f"Strukturfehler im DataFrame bei der Kartenerstellung: {ke}")
+    except Exception as e:
+        # Fängt alle unerwarteten Fehler ab (z.B. Speicherfehler, Folium-interne Probleme)
+        logging.error(f"Unerwarteter Fehler beim Erstellen der Streckenkarte: {e}", exc_info=True) # exc_info=True (bei unerwarteten Fehler wird Zeilennummer des Fehlers in Log geschrieben)
 
 
 
@@ -216,7 +241,7 @@ if __name__ == "__main__":
     simulatorb1.plot_ladezustand(df)
 
 
-# Ergebnisse speichern
+    # Ergebnisse speichern
     df.to_csv("Output.csv", index=False)
 
 
@@ -268,6 +293,4 @@ if __name__ == "__main__":
 
 
     #Ploten der Strecke auf einer Karte
-
-
     PlotStreckeAufKarte(df)
