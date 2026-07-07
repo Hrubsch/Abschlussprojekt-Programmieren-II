@@ -1,0 +1,2760 @@
+2026-07-06 20:02:39,238:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 20:02:39,238:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 20:02:43,116:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 20:02:43,116:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 20:02:43,116:INFO: Starte Simulation des Ladezustands
+2026-07-06 20:02:43,117:INFO: Simulation beendet. 4 Werte verarbeitet.
+2026-07-06 20:02:43,119:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 20:02:43,120:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 20:02:43,120:INFO: Starte Simulation des Ladezustands
+2026-07-06 20:02:43,125:WARNING: Batterie ist vollstï¿½ndig entladen!
+2026-07-06 20:02:43,125:WARNING: Batterie ist vollstï¿½ndig entladen!
+2026-07-06 20:02:43,125:WARNING: Batterie ist vollstï¿½ndig entladen!
+2026-07-06 20:02:43,125:INFO: Simulation beendet. 3 Werte verarbeitet.
+2026-07-06 20:02:43,128:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 20:02:43,128:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 20:02:43,128:INFO: Starte Simulation des Ladezustands
+2026-07-06 20:02:43,129:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-06 20:02:43,129:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-06 20:02:43,129:INFO: Simulation beendet. 2 Werte verarbeitet.
+2026-07-06 20:02:43,133:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 20:02:43,133:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 20:02:43,133:INFO: Starte Simulation des Ladezustands
+2026-07-06 20:02:43,133:WARNING: [Zeile 1] Negativer Zeitschritt dt=-5.0 erkannt. ï¿½berspringe Schritt.
+2026-07-06 20:02:43,134:ERROR: [Zeile 3] Ungï¿½ltiger Datentyp in den Daten: '<' not supported between instances of 'str' and 'int'. Zeile ï¿½bersprungen.
+2026-07-06 20:02:43,134:INFO: Simulation beendet. 4 Werte verarbeitet.
+2026-07-06 21:06:50,431:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:06:50,431:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:06:50,457:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:17:05,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:05,942:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:17:05,970:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:17:41,479:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:17:41,479:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:17:41,506:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:22:49,472:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:22:49,473:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:22:49,499:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:23:35,628:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:23:35,628:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:23:35,628:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:23:35,629:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:23:35,629:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:23:35,655:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:24:51,580:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:24:51,580:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:25:07,053:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:25:07,082:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 21:29:45,178:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 21:29:45,178:INFO: Starte Simulation des Ladezustands
+2026-07-06 21:29:45,207:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 17:53:13,356:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 17:53:13,356:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 17:53:13,356:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 17:53:13,356:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 17:53:13,356:INFO: Starte Simulation des Ladezustands
+2026-07-07 17:53:13,391:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 17:53:30,439:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 17:53:30,439:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 17:53:30,439:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 17:53:30,439:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 17:53:30,439:INFO: Starte Simulation des Ladezustands
+2026-07-07 17:53:30,464:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:01:52,318:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:01:52,318:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:01:52,318:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:01:52,318:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:01:52,318:INFO: Starte Simulation des Ladezustands
+2026-07-07 18:01:52,344:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:03:31,032:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:03:31,032:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:03:31,032:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:03:31,032:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:03:31,032:INFO: Starte Simulation des Ladezustands
+2026-07-07 18:03:31,062:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:38:43,452:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 18:38:43,452:INFO: Starte Simulation des Ladezustands
+2026-07-07 18:38:43,482:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 18:38:45,401:INFO: Start der Karten-Generierung
+2026-07-07 18:38:45,418:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-06 22:32:14,321:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:32:14,322:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:32:14,322:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:32:14,322:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:32:14,322:INFO: Starte Simulation des Ladezustands
+2026-07-06 22:32:14,438:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 22:34:58,787:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:34:58,787:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:34:58,787:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:34:58,787:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:34:58,787:INFO: Starte Simulation des Ladezustands
+2026-07-06 22:34:58,834:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 22:39:04,036:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:39:04,037:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 22:39:04,037:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:39:04,037:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 22:39:04,037:INFO: Starte Simulation des Ladezustands
+2026-07-06 22:39:04,110:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-06 23:35:41,695:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 23:35:41,695:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-06 23:35:41,695:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 23:35:41,695:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-06 23:35:41,695:INFO: Starte Simulation des Ladezustands
+2026-07-06 23:35:41,730:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:33:48,932:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:33:48,933:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:33:48,933:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:33:48,933:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:33:48,933:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:33:48,973:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:39:13,666:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:39:13,667:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:39:13,667:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:39:13,667:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:39:13,667:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:39:13,711:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:39:43,819:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:39:43,819:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:39:43,819:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:39:43,819:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:39:43,819:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:39:43,864:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:41:00,601:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:41:00,601:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:41:00,601:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:41:00,601:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:41:00,601:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:41:00,638:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:41:52,640:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:41:52,640:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:41:52,640:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:41:52,640:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:41:52,640:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:41:52,678:INFO: Simulation beendet. 2130 Werte verarbeitet.
+2026-07-07 13:47:01,371:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:47:01,371:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:47:01,372:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:47:01,372:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:47:01,372:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:47:01,375:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 13:47:01,463:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 13:49:57,375:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:49:57,375:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:49:57,375:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:49:57,376:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:49:57,376:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:49:57,378:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 13:49:57,417:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 13:53:37,227:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:53:37,227:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 13:53:37,228:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:53:37,228:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 13:53:37,228:INFO: Starte Simulation des Ladezustands
+2026-07-07 13:53:37,231:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 13:53:37,269:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:03:26,253:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:03:26,254:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:03:26,254:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:03:26,254:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:03:26,254:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:03:26,257:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 15:03:26,328:INFO: Simulation beendet. 2284 Werte verarbeitet.
+<<<<<<< HEAD
+2026-07-07 19:27:51,787:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:27:51,788:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:27:51,788:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:27:51,788:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:27:51,788:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:27:51,800:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:27:51,886:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:29:46,894:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:29:46,894:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:29:46,894:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:29:46,894:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:29:46,894:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:29:46,897:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:29:46,937:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:41:08,582:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:41:08,582:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:41:08,582:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:41:08,582:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:41:08,582:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:41:08,585:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:41:08,627:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:41:12,198:INFO: Starte Generierung des Hï¿½henprofils
+2026-07-07 19:42:07,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:42:07,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:42:07,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:42:07,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:42:07,555:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:42:07,557:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:42:07,599:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:42:11,114:INFO: Starte Generierung des Hï¿½henprofils
+2026-07-07 19:43:03,470:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:43:03,471:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:43:03,471:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:43:03,471:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:43:03,471:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:43:03,474:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:43:03,512:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:43:06,913:INFO: Starte Generierung des Hï¿½henprofils
+2026-07-07 19:48:56,707:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:48:56,707:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:48:56,708:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:48:56,708:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:48:56,708:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:48:56,710:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:48:56,753:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:49:00,414:INFO: Hï¿½henprofil erfolgreich generiert und gespeichert.
+2026-07-07 19:57:39,488:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:57:39,488:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 19:57:39,488:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:57:39,489:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 19:57:39,489:INFO: Starte Simulation des Ladezustands
+2026-07-07 19:57:39,492:INFO: Batterie ist vollstï¿½ndig geladen.
+2026-07-07 19:57:39,570:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 19:57:43,006:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 19:57:43,193:INFO: Hï¿½henprofil erfolgreich generiert und gespeichert.
+2026-07-07 20:00:00,264:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:00:00,264:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:00:00,264:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:00:00,264:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:00:00,264:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:00:00,271:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:00:00,311:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:00:03,737:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 20:00:03,943:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+=======
+2026-07-07 15:26:49,700:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:26:49,704:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:26:49,812:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:30:37,432:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:30:37,435:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:30:37,482:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:30:55,912:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6372-VIE 1783431054 198390747</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:00,927:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6379-VIE 1783431059 3513374846</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:05,476:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783431063 1591255136</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:10,467:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6331-VIE 1783431068 3465331686</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:15,017:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6369-VIE 1783431073 3569739503</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:20,349:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6374-VIE 1783431078 1945206613</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:25,227:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431083 4028761456</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:32,469:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:31:32,471:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:31:32,515:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:31:41,486:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6336-VIE 1783431099 1413565727</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:46,535:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6370-VIE 1783431104 1150060516</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:51,827:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783431109 1334188854</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:57,036:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6329-VIE 1783431115 3031792408</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:19,105:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:32:19,107:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:32:19,154:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:32:28,746:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6375-VIE 1783431146 1219673411</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:33,625:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6351-VIE 1783431151 633054454</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:38,726:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6358-VIE 1783431156 1356474477</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:43,465:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6367-VIE 1783431162 189430930</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:48,194:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6354-VIE 1783431166 2413129985</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:53,045:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6349-VIE 1783431171 4257274215</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:57,496:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783431176 2228838398</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:01,397:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6335-VIE 1783431179 3972292933</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:06,085:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6365-VIE 1783431184 2154539817</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:10,307:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6357-VIE 1783431188 2590470535</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:15,253:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6353-VIE 1783431193 1950797244</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:19,725:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6344-VIE 1783431198 4539265</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:24,275:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6346-VIE 1783431202 2462056987</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:28,535:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783431207 2229525516</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:33,256:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6373-VIE 1783431211 2763671894</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:38,725:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6344-VIE 1783431216 4928138</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:43,906:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6371-VIE 1783431221 203387321</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:49,225:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6343-VIE 1783431227 197845019</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:53,846:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783431232 1336806741</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:00,017:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6382-VIE 1783431237 2383681892</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:05,636:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6364-VIE 1783431243 241506368</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:10,477:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6321-VIE 1783431248 2751024260</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:15,016:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6382-VIE 1783431252 2384004367</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:20,287:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6333-VIE 1783431258 3685123715</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:25,527:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783431264 1595615420</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:30,376:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6374-VIE 1783431268 1949285607</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:35,995:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6323-VIE 1783431273 1120974388</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:41,064:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783431278 1480237438</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:46,276:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431284 4032969122</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:50,656:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783431288 1043863297</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:55,566:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6380-VIE 1783431293 204250890</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:39,167:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:44:39,171:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:44:39,255:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:44:47,965:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6334-VIE 1783431886 2135883226</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:53,271:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6378-VIE 1783431891 2505167293</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:58,692:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6320-VIE 1783431897 2062446145</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:04,273:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6378-VIE 1783431903 2505398496</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:10,033:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6341-VIE 1783431907 1939539075</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:15,871:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6327-VIE 1783431914 2377832782</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:22,213:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6329-VIE 1783431920 3050127005</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:28,374:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431926 4046065431</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:34,173:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783431932 1493478818</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:40,624:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6331-VIE 1783431938 3483827633</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:46,753:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783431945 1057732600</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:52,092:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6372-VIE 1783431950 217671530</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:58,327:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6376-VIE 1783431956 576794399</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:55:46,224:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:55:46,227:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:55:46,326:INFO: Simulation beendet. 2284 Werte verarbeitet.
+<<<<<<< HEAD
+2026-07-07 20:14:50,283:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:14:50,286:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:14:50,329:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:15:36,470:WARNING: Bad value in file WindowsPath('C:/Users/gabch/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/matplotlib/mpl-data/stylelib/_mpl-gallery-nogrid.mplstyle'), line 19 ("axes.prop_cycle: cycler('color', ['1f77b4', '82bbdb', 'ccdff1'])"): Key axes.prop_cycle: "cycler('color', ['1f77b4', '82bbdb', 'ccdff1'])" is not a valid cycler construction: 
+2026-07-07 20:15:36,876:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:15:36,878:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:15:36,918:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:32:59,953:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:32:59,955:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:33:00,003:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:33:03,841:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 114
+2026-07-07 20:33:30,923:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 20:33:48,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:33:48,558:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:33:48,599:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:33:53,052:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 20:34:31,225:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 20:42:38,712:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:42:38,712:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:42:38,712:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:42:38,712:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:42:38,713:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:42:38,715:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:42:38,755:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:42:42,613:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 20:43:15,833:INFO: Reverse Geocoding erfolgreich beendet
+>>>>>>> reverseGeocoding
+2026-07-07 21:19:15,932:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:19:15,932:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:19:15,934:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:19:15,976:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:19:19,865:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:19:20,079:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:19:20,080:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:19:20,098:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:19:20,222:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,257:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,278:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,301:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,327:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,350:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,372:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,391:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,410:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 684: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,431:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 760: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,453:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 836: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,472:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 912: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,499:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 988: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,522:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1064: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,548:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1140: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,569:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1216: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,590:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1292: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,612:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1368: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,632:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1444: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:20,651:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1520: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:25,444:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783451964 2679176602</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:19:25,445:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1596: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:19:28,804:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1672: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:28,967:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1748: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:29,754:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1824: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:29,948:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1900: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:30,697:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1976: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:30,899:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2052: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,310:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2128: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,599:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2204: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,985:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2280: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:19:31,985:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:20:21,584:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:20:21,584:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:20:21,585:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:20:21,588:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:20:21,633:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:20:25,141:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:20:25,335:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:20:25,336:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:20:25,362:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:20:30,922:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6332-VIE 1783452028 1910263120</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:30,923:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:35,016:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783452033 2043070012</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:35,016:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:39,408:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783452038 2680591245</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:39,408:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:43,914:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6337-VIE 1783452042 4010564100</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:43,915:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:20:45,961:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,117:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,473:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,678:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:46,859:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 684: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,192:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 760: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,346:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 836: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:47,491:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 912: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,112:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 988: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,334:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1064: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,505:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1140: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:48,664:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1216: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,038:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1292: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,343:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1368: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,483:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1444: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,646:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1520: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,956:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1596: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:49,997:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1672: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:50,039:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1748: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:50,082:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1824: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:20:55,784:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6362-VIE 1783452054 1979887649</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:20:55,784:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1900: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:01,629:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783452060 1482665019</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:01,629:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 1976: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:05,930:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783452064 1781008557</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:05,930:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2052: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:11,104:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6356-VIE 1783452069 2275599523</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:11,104:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2128: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:17,286:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6324-VIE 1783452075 1680858514</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:21:17,287:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2204: Non-successful status code 429
+Traceback (most recent call last):
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 368, in _call_geocoder
+    result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 472, in get_json
+    resp = self._request(url, timeout=timeout, headers=headers)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\adapters.py", line 500, in _request
+    raise AdapterHTTPError(
+    ...<4 lines>...
+    )
+geopy.adapters.AdapterHTTPError: Non-successful status code 429
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 275, in reverse_goecoding
+    location = geolocator.reverse((row["lat"], row["lon"]), timeout=10)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\nominatim.py", line 372, in reverse
+    return self._call_geocoder(url, callback, timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 388, in _call_geocoder
+    res = self._adapter_error_handler(error)
+  File "C:\Users\gabch\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\geopy\geocoders\base.py", line 407, in _adapter_error_handler
+    raise exc_cls(
+        str(error), retry_after=get_retry_after(error.headers)
+    ) from error
+geopy.exc.GeocoderRateLimited: Non-successful status code 429
+2026-07-07 21:21:18,801:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 2280: 'Location' object has no attribute 'adress'
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 282, in reverse_goecoding
+    ort_name = location.adress
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Location' object has no attribute 'adress'. Did you mean: 'address'?
+2026-07-07 21:21:18,802:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:27:27,415:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:27:27,415:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:27:27,417:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:27:27,467:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:27:30,979:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:27:31,186:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:27:31,186:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:27:31,215:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:27:36,700:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6379-VIE 1783452454 3970191914</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:36,734:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:27:37,736:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 76: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:42,539:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6342-VIE 1783452461 3261489633</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:42,539:WARNING: API-Fehler bei Zeile 152: Non-successful status code 429
+2026-07-07 21:27:43,540:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 152: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:49,105:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6380-VIE 1783452467 633649820</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:49,105:WARNING: API-Fehler bei Zeile 228: Non-successful status code 429
+2026-07-07 21:27:50,107:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 228: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:27:54,799:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6325-VIE 1783452473 4264863660</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:27:54,799:WARNING: API-Fehler bei Zeile 304: Non-successful status code 429
+2026-07-07 21:27:55,800:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 304: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:01,173:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6340-VIE 1783452479 1183669598</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:01,173:WARNING: API-Fehler bei Zeile 380: Non-successful status code 429
+2026-07-07 21:28:02,173:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 380: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:07,938:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6334-VIE 1783452486 2568136880</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:07,938:WARNING: API-Fehler bei Zeile 456: Non-successful status code 429
+2026-07-07 21:28:08,939:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 456: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:14,587:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6342-VIE 1783452492 3262084785</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:14,587:WARNING: API-Fehler bei Zeile 532: Non-successful status code 429
+2026-07-07 21:28:15,588:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 532: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:28:20,427:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6364-VIE 1783452499 683517396</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:28:20,427:WARNING: API-Fehler bei Zeile 608: Non-successful status code 429
+2026-07-07 21:28:21,429:ERROR: Unerwarteter Fehler bei der Verarbeitung von Index 608: cannot access local variable 'ort_name' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\1b_Gabriel\1a_MCI\2.Semester\Programmieren\Abschlussprojekt-Programmieren-II\main.py", line 299, in reverse_goecoding
+    letzter_ort = ort_name
+                  ^^^^^^^^
+UnboundLocalError: cannot access local variable 'ort_name' where it is not associated with a value
+2026-07-07 21:29:28,291:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:29:28,292:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:29:28,295:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:29:28,377:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:29:31,961:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:29:32,210:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:29:32,211:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:29:32,233:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:29:37,435:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6355-VIE 1783452576 504006095</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:29:37,435:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:30:12,732:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:34:04,663:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:34:04,663:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:34:04,665:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:34:04,706:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:34:08,710:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:34:08,911:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:34:08,911:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:34:10,932:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:34:16,070:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6332-VIE 1783452854 1925064132</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:34:16,070:WARNING: API-Fehler bei Zeile 76: Non-successful status code 429
+2026-07-07 21:34:22,524:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783452860 1922175698</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 21:34:22,524:WARNING: API-Fehler bei Zeile 152: Non-successful status code 429
+2026-07-07 21:35:04,177:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:35:51,925:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:35:51,925:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:35:51,927:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:35:51,975:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:35:55,505:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:35:55,705:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:35:55,705:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:35:59,751:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:36:32,013:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:36:56,064:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:36:56,065:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:36:56,067:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:36:56,109:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:36:59,610:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:36:59,825:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:36:59,826:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:37:01,868:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:37:33,101:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 21:44:46,936:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:44:46,937:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 21:44:46,937:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:44:46,937:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 21:44:46,937:INFO: Starte Simulation des Ladezustands
+2026-07-07 21:44:46,940:INFO: Batterie ist vollständig geladen.
+2026-07-07 21:44:46,986:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 21:44:50,544:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 21:44:50,736:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 21:44:50,737:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 21:44:52,776:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 21:45:23,745:INFO: Reverse Geocoding erfolgreich beendet
+=======
+2026-07-07 16:21:59,650:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 16:21:59,651:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 16:21:59,652:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 16:21:59,652:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 16:21:59,652:INFO: Starte Simulation des Ladezustands
+2026-07-07 16:21:59,657:INFO: Batterie ist vollständig geladen.
+2026-07-07 16:21:59,859:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,859:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,859:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,860:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,861:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,861:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,861:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,862:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,863:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,863:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,863:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,863:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,863:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,864:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,865:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,866:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,867:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,868:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,869:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,870:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,870:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,870:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,870:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,871:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,871:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,871:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,872:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,873:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,874:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,875:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,876:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,877:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,878:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,879:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,879:WARNING: Batterie ist vollständig entladen!
+2026-07-07 16:21:59,879:INFO: Simulation beendet. 2284 Werte verarbeitet.
+>>>>>>> Rollwiderstand
+2026-07-07 22:03:03,416:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 22:03:03,417:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 22:03:03,417:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 22:03:03,417:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 22:03:03,417:INFO: Starte Simulation des Ladezustands
+2026-07-07 22:03:03,419:INFO: Batterie ist vollständig geladen.
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,466:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,467:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,468:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,469:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,470:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,471:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,472:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,472:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,472:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,472:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,472:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,473:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,473:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,473:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,473:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,473:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,474:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,475:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,476:WARNING: Batterie ist vollständig entladen!
+2026-07-07 22:03:03,477:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 22:03:07,220:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-07 22:03:07,428:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-07 22:03:07,428:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 22:03:09,461:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-07 22:03:40,572:INFO: Reverse Geocoding erfolgreich beendet

@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from .battery_pack_start import BatteryPack
+from battery_pack_start import BatteryPack
 
 class lifepo(BatteryPack): 
     def __init__(

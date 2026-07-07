@@ -1,7 +1,6 @@
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
-
+logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterypack.log")
 class BatteryPack:
     """
     Simple model of a battery pack as a single cell.
@@ -14,6 +13,7 @@ class BatteryPack:
         capacity_nom_cell_Ah : float = 10,
         initial_soc: float = 1.0,
         anz_parallel = 2,
+        
   
     ):
         self.anz_parallel = anz_parallel
@@ -29,6 +29,7 @@ class BatteryPack:
             raise ValueError(f"Ungültiger initial_soc: {initial_soc}. Der SoC muss zwischen 0.0 und 1.0 liegen!")
         
         self.soc = initial_soc
+        logging.info("BatteryPack erfolgreich initialisiert.")
 
 
     def apply_current(self, current: float, duration: float) -> None:
@@ -63,7 +64,7 @@ class BatteryPack:
 
 if __name__ == "__main__":
 
-    battery = BatteryPack(capacity_nom_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)
+    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)
     print(battery)
 
     battery.apply_current(current=5.0, duration=300.0)
