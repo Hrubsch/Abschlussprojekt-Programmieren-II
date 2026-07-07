@@ -1181,3 +1181,18 @@
 2026-07-07 15:55:46,224:INFO: Starte Simulation des Ladezustands
 2026-07-07 15:55:46,227:INFO: Batterie ist vollständig geladen.
 2026-07-07 15:55:46,326:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:14:50,283:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:14:50,284:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:14:50,286:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:14:50,329:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:15:36,470:WARNING: Bad value in file WindowsPath('C:/Users/gabch/AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/matplotlib/mpl-data/stylelib/_mpl-gallery-nogrid.mplstyle'), line 19 ("axes.prop_cycle: cycler('color', ['1f77b4', '82bbdb', 'ccdff1'])"): Key axes.prop_cycle: "cycler('color', ['1f77b4', '82bbdb', 'ccdff1'])" is not a valid cycler construction: 
+2026-07-07 20:15:36,876:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:15:36,876:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:15:36,878:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:15:36,918:INFO: Simulation beendet. 2284 Werte verarbeitet.

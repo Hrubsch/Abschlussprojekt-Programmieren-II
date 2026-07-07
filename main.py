@@ -8,10 +8,13 @@ from Akku import nmc
 import matplotlib.collections as mcollections
 from geopy.geocoders import Nominatim
 import time
+import logging
 
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter1d
 from datetime import datetime
+
+logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Main.log")
 
 def Kenngroessen(df):
     # Maximalleistung
@@ -101,6 +104,37 @@ def reverse_geocode(lat, lon):
         return "Unbekannter Ort"
     except Exception as e:
         return f"Fehler bei der Abfrage ({e})"
+
+def reverse_goecoding(df : pd.DataFrame) -> list[str]:
+    orte = [] 
+    letzter_ort = None
+    
+    # Prüfen den Datensatz in Schritten von z.B. 200 Zeilen (Intervall je nach Datendichte anpassen)
+    schrittweite = max(1, len(df) // 30) # Ergibt ca. 30 Checkpoints über die Fahrt
+    
+    print("Ermittle Orte entlang der Strecke...")
+    for idx in range(0, len(df), schrittweite):
+        row = df.iloc[idx]
+
+        # Überspringe Zeilen mit NaN-Werten
+        if pd.isna(row["s_orig"]) or pd.isna(row["lat_glatt"]) or pd.isna(row["lon_glatt"]):
+            continue
+
+        aktuelle_distanz_km = row["s_orig"] / 1000
+        
+        # API abfragen
+        ort = reverse_geocode(row["lat_glatt"], row["lon_glatt"])
+        
+        # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
+        time.sleep(1)
+
+        # Speichern, wenn ein Ort gefunden wurde und er neu ist
+        if ort and ort != letzter_ort:
+            orte.append(ort)
+            letzter_ort = ort
+    return orte
+    
+  
 
 if __name__ == "__main__":
     g = 9.81
@@ -405,32 +439,5 @@ if __name__ == "__main__":
 
 
     #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
-    orte_marken = [] # Liste aus Tupeln: (Distanz_in_km, "Ortsname", Hoehe)
-    letzter_ort = None
-    
-    # Prüfen den Datensatz in Schritten von z.B. 200 Zeilen (Intervall je nach Datendichte anpassen)
-    schrittweite = max(1, len(df) // 30) # Ergibt ca. 30 Checkpoints über die Fahrt
-    
-    print("Ermittle Orte entlang der Strecke...")
-    for idx in range(0, len(df), schrittweite):
-        row = df.iloc[idx]
-
-        # Überspringe Zeilen mit NaN-Werten
-        if pd.isna(row["s_orig"]) or pd.isna(row["lat_glatt"]) or pd.isna(row["lon_glatt"]):
-            continue
-
-        aktuelle_distanz_km = row["s_orig"] / 1000
-        
-        # API abfragen
-        ort = reverse_geocode(row["lat_glatt"], row["lon_glatt"])
-        
-        # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
-        time.sleep(1)
-
-        # Speichern, wenn ein Ort gefunden wurde und er neu ist
-        if ort and ort != letzter_ort:
-            orte_marken.append(ort)
-            letzter_ort = ort
-
-    print(orte_marken)
-  
+    orte = reverse_goecoding(df)
+    print(orte)
