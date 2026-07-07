@@ -1196,3 +1196,21 @@
 2026-07-07 20:15:36,876:INFO: Starte Simulation des Ladezustands
 2026-07-07 20:15:36,878:INFO: Batterie ist vollständig geladen.
 2026-07-07 20:15:36,918:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:32:59,953:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:32:59,953:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:32:59,955:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:33:00,003:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:33:03,841:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 114
+2026-07-07 20:33:30,923:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-07 20:33:48,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 20:33:48,555:INFO: Starte Simulation des Ladezustands
+2026-07-07 20:33:48,558:INFO: Batterie ist vollständig geladen.
+2026-07-07 20:33:48,599:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 20:33:53,052:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-07 20:34:31,225:INFO: Reverse Geocoding erfolgreich beendet

@@ -106,34 +106,57 @@ def reverse_geocode(lat, lon):
         return f"Fehler bei der Abfrage ({e})"
 
 def reverse_goecoding(df : pd.DataFrame) -> list[str]:
+
+    # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
+    erforderliche_spalten = ["s_orig", "lat", "lon", "ele"]
+    for spalte in erforderliche_spalten:
+        if spalte not in df.columns:
+            raise KeyError(f"Die erforderliche Spalte '{spalte}' fehlt im DataFrame.")
+            
+    # Prüfen, ob DataFrame gefüllt ist mit Werten
+    if df_map_glatt.empty or df_map_orig.empty:
+        logging.warning("Reverse Geocoding abgebrochen: Keine gültigen GPS-Daten vorhanden.")
+        print("Reverse Geocoding abgebrochen: Keine gültigen GPS-Daten vorhanden.")
+        return
+
     orte = [] 
     letzter_ort = None
     
-    # Prüfen den Datensatz in Schritten von z.B. 200 Zeilen (Intervall je nach Datendichte anpassen)
-    schrittweite = max(1, len(df) // 30) # Ergibt ca. 30 Checkpoints über die Fahrt
+    # Prüfen den Datensatz in Schritten von 20 Zeilen
+    schrittweite = max(1, len(df) // 30) 
     
     print("Ermittle Orte entlang der Strecke...")
-    for idx in range(0, len(df), schrittweite):
-        row = df.iloc[idx]
+    logging.info(f"Starte Reverse Geocoding mit {len(df)} Zeilen. Schrittweite: {schrittweite}")
 
-        # Überspringe Zeilen mit NaN-Werten
-        if pd.isna(row["s_orig"]) or pd.isna(row["lat_glatt"]) or pd.isna(row["lon_glatt"]):
+    for idx in range(0, len(df), schrittweite):
+        try:
+            row = df.iloc[idx]
+
+            # Überspringe Zeilen mit NaN-Werten
+            if pd.isna(row["s_orig"]) or pd.isna(row["lat"]) or pd.isna(row["lon"]):
+                continue
+
+            aktuelle_distanz_km = row["s_orig"] / 1000
+            
+            # API abfragen
+            ort = reverse_geocode(row["lat"], row["lon"])
+            
+            # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
+            time.sleep(1)
+
+            # Speichern, wenn ein Ort gefunden wurde und er neu ist
+            if ort and ort != letzter_ort:
+                orte.append(ort)
+                letzter_ort = ort
+
+        except Exception as e:
+            # Fängt unerwartete Fehler innerhalb der Schleife ab, damit das Skript nicht abstürzt
+            logging.error(f"Unerwarteter Fehler bei der Verarbeitung von Index {idx}: {e}", exc_info=True)
             continue
 
-        aktuelle_distanz_km = row["s_orig"] / 1000
-        
-        # API abfragen
-        ort = reverse_geocode(row["lat_glatt"], row["lon_glatt"])
-        
-        # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
-        time.sleep(1)
-
-        # Speichern, wenn ein Ort gefunden wurde und er neu ist
-        if ort and ort != letzter_ort:
-            orte.append(ort)
-            letzter_ort = ort
+    logging.info(f"Reverse Geocoding erfolgreich beendet")
     return orte
-    
+        
   
 
 if __name__ == "__main__":
