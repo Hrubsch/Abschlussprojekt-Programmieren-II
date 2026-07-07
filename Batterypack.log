@@ -149,3 +149,1035 @@
 2026-07-07 15:03:26,254:INFO: Starte Simulation des Ladezustands
 2026-07-07 15:03:26,257:INFO: Batterie ist vollständig geladen.
 2026-07-07 15:03:26,328:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:26:49,700:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:26:49,701:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:26:49,704:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:26:49,812:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:30:37,432:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:30:37,432:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:30:37,435:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:30:37,482:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:30:55,912:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6372-VIE 1783431054 198390747</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:00,927:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6379-VIE 1783431059 3513374846</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:05,476:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783431063 1591255136</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:10,467:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6331-VIE 1783431068 3465331686</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:15,017:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6369-VIE 1783431073 3569739503</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:20,349:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6374-VIE 1783431078 1945206613</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:25,227:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431083 4028761456</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:32,469:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:31:32,469:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:31:32,471:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:31:32,515:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:31:41,486:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6336-VIE 1783431099 1413565727</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:46,535:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6370-VIE 1783431104 1150060516</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:51,827:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783431109 1334188854</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:31:57,036:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6329-VIE 1783431115 3031792408</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:19,105:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:32:19,105:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:32:19,107:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:32:19,154:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:32:28,746:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6375-VIE 1783431146 1219673411</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:33,625:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6351-VIE 1783431151 633054454</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:38,726:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6358-VIE 1783431156 1356474477</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:43,465:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6367-VIE 1783431162 189430930</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:48,194:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6354-VIE 1783431166 2413129985</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:53,045:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6349-VIE 1783431171 4257274215</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:32:57,496:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783431176 2228838398</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:01,397:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6335-VIE 1783431179 3972292933</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:06,085:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6365-VIE 1783431184 2154539817</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:10,307:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6357-VIE 1783431188 2590470535</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:15,253:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6353-VIE 1783431193 1950797244</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:19,725:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6344-VIE 1783431198 4539265</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:24,275:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6346-VIE 1783431202 2462056987</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:28,535:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6345-VIE 1783431207 2229525516</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:33,256:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6373-VIE 1783431211 2763671894</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:38,725:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6344-VIE 1783431216 4928138</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:43,906:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6371-VIE 1783431221 203387321</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:49,225:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6343-VIE 1783431227 197845019</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:33:53,846:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6322-VIE 1783431232 1336806741</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:00,017:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6382-VIE 1783431237 2383681892</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:05,636:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6364-VIE 1783431243 241506368</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:10,477:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6321-VIE 1783431248 2751024260</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:15,016:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6382-VIE 1783431252 2384004367</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:20,287:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6333-VIE 1783431258 3685123715</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:25,527:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6368-VIE 1783431264 1595615420</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:30,376:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6374-VIE 1783431268 1949285607</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:35,995:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6323-VIE 1783431273 1120974388</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:41,064:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783431278 1480237438</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:46,276:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431284 4032969122</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:50,656:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783431288 1043863297</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:34:55,566:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6380-VIE 1783431293 204250890</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:39,167:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:44:39,168:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:44:39,171:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:44:39,255:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-07 15:44:47,965:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6334-VIE 1783431886 2135883226</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:53,271:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6378-VIE 1783431891 2505167293</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:44:58,692:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6320-VIE 1783431897 2062446145</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:04,273:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6378-VIE 1783431903 2505398496</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:10,033:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6341-VIE 1783431907 1939539075</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:15,871:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6327-VIE 1783431914 2377832782</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:22,213:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6329-VIE 1783431920 3050127005</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:28,374:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6383-VIE 1783431926 4046065431</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:34,173:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6377-VIE 1783431932 1493478818</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:40,624:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6331-VIE 1783431938 3483827633</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:46,753:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6338-VIE 1783431945 1057732600</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:52,092:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6372-VIE 1783431950 217671530</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:45:58,327:INFO: Received an HTTP error (429): 
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>429 Too many requests</title>
+  </head>
+  <body>
+    <h1>Error 429 Too many requests</h1>
+    <p>Too many requests</p>
+    <h3>Error 54113</h3>
+    <p>Details: cache-vie6376-VIE 1783431956 576794399</p>
+    <hr>
+    <p>Varnish cache server</p>
+  </body>
+</html>
+
+2026-07-07 15:55:46,224:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-07 15:55:46,224:INFO: Starte Simulation des Ladezustands
+2026-07-07 15:55:46,227:INFO: Batterie ist vollständig geladen.
+2026-07-07 15:55:46,326:INFO: Simulation beendet. 2284 Werte verarbeitet.

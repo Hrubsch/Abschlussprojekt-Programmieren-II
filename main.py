@@ -6,7 +6,8 @@ from battery_pack_start import BatteryPack
 from Akku import lifepo
 from Akku import nmc
 import matplotlib.collections as mcollections
-
+from geopy.geocoders import Nominatim
+import time
 
 import matplotlib.pyplot as plt
 from scipy.ndimage import gaussian_filter1d
@@ -85,6 +86,21 @@ def luftdruck_berechnung(rho_0, M, g, R, temp, h):
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
 
+def reverse_geocode(lat, lon):
+    """Wandelt Breitengrad und Längengrad in eine lesbare Adresse um."""
+    try:
+        # Ein eindeutiger user_agent ist für den Nominatim-Dienst zwingend erforderlich
+        geolocator = Nominatim(user_agent="abschlussprojekt_ebike_tour_simulator")
+        location = geolocator.reverse((lat, lon), timeout=10)
+        if location: # true wenn location erkannt wird
+            address = location.raw.get("address", {})
+            # Versuche den Stadtnamen oder das Dorf zu erkennen, erkennd kleinste urbane Einheit 
+            ort = address.get("village") or address.get("town") or address.get("city") or address.get("suburb")
+            # Falls kein spezifischer Ort gefunden wurde, nimm die formatierte Adresse
+            return ort if ort else location.address
+        return "Unbekannter Ort"
+    except Exception as e:
+        return f"Fehler bei der Abfrage ({e})"
 
 if __name__ == "__main__":
     g = 9.81
@@ -386,3 +402,35 @@ if __name__ == "__main__":
  
     
     plt.savefig("hoehenprofil_steigung.png")
+
+
+    #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
+    orte_marken = [] # Liste aus Tupeln: (Distanz_in_km, "Ortsname", Hoehe)
+    letzter_ort = None
+    
+    # Prüfen den Datensatz in Schritten von z.B. 200 Zeilen (Intervall je nach Datendichte anpassen)
+    schrittweite = max(1, len(df) // 30) # Ergibt ca. 30 Checkpoints über die Fahrt
+    
+    print("Ermittle Orte entlang der Strecke...")
+    for idx in range(0, len(df), schrittweite):
+        row = df.iloc[idx]
+
+        # Überspringe Zeilen mit NaN-Werten
+        if pd.isna(row["s_orig"]) or pd.isna(row["lat_glatt"]) or pd.isna(row["lon_glatt"]):
+            continue
+
+        aktuelle_distanz_km = row["s_orig"] / 1000
+        
+        # API abfragen
+        ort = reverse_geocode(row["lat_glatt"], row["lon_glatt"])
+        
+        # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
+        time.sleep(1)
+
+        # Speichern, wenn ein Ort gefunden wurde und er neu ist
+        if ort and ort != letzter_ort:
+            orte_marken.append(ort)
+            letzter_ort = ort
+
+    print(orte_marken)
+  
