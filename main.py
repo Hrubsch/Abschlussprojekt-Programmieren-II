@@ -51,26 +51,6 @@ def haversine(lat1, lon1, lat2, lon2):
     d = R * c
     return d
 
-# Enwicklung des Ladezustandes des Akkus über die Fahrt
-#def simulation_ladezustand(df, battery : BatteryPack = BatteryPack(capacity_nom_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)):
-    """Simulation des Ladezustands des Akkus über die Fahrt"""
-    simulator = BatterySimulator(battery)
-
-    df_bereinigt = df.dropna(subset=["dt"]) #ohne erste Zeile, weil keine Werte
-
-    #current_list = df_bereinigt["I_motor"].to_list()
-    #duration_list = df_bereinigt["dt"].to_list()
-
-    soc_liste = []
-    soc_liste.append(battery.soc * 100)
-    for i,j in df_bereinigt.iterrows():
-        dt = j["dt"]
-        I_motor = j["I_motor"]
-    battery.apply_current(I_motor, dt)
-    soc_liste.append(battery.soc * 100) #hinzufügen von soc in %
-    df["SOC"] = soc_liste
-    return df["SOC"]
-
 def glaette_gps(df):
     df = df.copy()
     df["lat_glatt"] = df["lat"].rolling(window=10).mean()
@@ -83,6 +63,65 @@ def luftdruck_berechnung(rho_0, M, g, R, temp, h):
     T = temp + 273.15  # Umrechnung von °C in Kelvin
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
+
+def PlotStreckeAufKarte(df : pd.DataFrame):
+
+    # NaN-Werte aus den geglätteten Koordinaten entfernen, da folium diese nicht verarbeiten kann
+    df_map_glatt = df.dropna(subset=["lat_glatt", "lon_glatt"])
+    df_map_orig = df.dropna(subset=["lat", "lon"])
+    
+    if not df_map_glatt.empty and not df_map_orig.empty:
+        # Startpunkt für die Zentrierung der Karte festlegen
+        start_lat = df_map_orig["lat"].iloc[0]
+        start_lon = df_map_orig["lon"].iloc[0]
+        
+        # Endpunkt für die Markierung
+        end_lat = df_map_orig["lat"].iloc[-1]
+        end_lon = df_map_orig["lon"].iloc[-1]
+
+        # Karte initialisieren (OpenStreetMap als Standard)
+        karte = folium.Map(location=[start_lat, start_lon], zoom_start=14)
+
+        # Koordinaten-Paare für die Linie (PolyLine) vorbereiten
+        koordinaten_glatt = list(zip(df_map_glatt["lat_glatt"], df_map_glatt["lon_glatt"]))
+        koordinaten_orig = list(zip(df_map_orig["lat"], df_map_orig["lon"]))
+        # Die gefahrene geglättete Strecke als rote Linie auf der Karte einzeichnen
+        folium.PolyLine(
+            locations=koordinaten_glatt, 
+            color="red", 
+            weight=4, 
+            opacity=0.8,
+            tooltip="Gefahrene Strecke"
+        ).add_to(karte)
+        # Die gefahrene original Strecke als grün Linie auf der Karte einzeichnen
+        folium.PolyLine(
+            locations=koordinaten_orig, 
+            color="green", 
+            weight=4, 
+            opacity=0.8,
+            tooltip="Gefahrene Strecke"
+        ).add_to(karte)
+
+        # Start- und Zielmarker hinzufügen
+        folium.Marker(
+            [start_lat, start_lon], 
+            popup="Start", 
+            icon=folium.Icon(color="green", icon="play")
+        ).add_to(karte)
+        
+        folium.Marker(
+            [end_lat, end_lon], 
+            popup="Ziel", 
+            icon=folium.Icon(color="red", icon="stop")
+        ).add_to(karte)
+
+        # Karte als HTML-Datei speichern
+        karte.save("strecke_karte_vergleich.html")
+        print("Karte wurde als 'strecke_karte_vergleich.html' gespeichert.")
+    else:
+        print("Keine gültigen GPS-Daten zum Plotten der Karte vorhanden.")
+
+
 
 
 if __name__ == "__main__":
@@ -229,58 +268,6 @@ if __name__ == "__main__":
 
 
     #Ploten der Strecke auf einer Karte
-    # NaN-Werte aus den geglätteten Koordinaten entfernen, da folium diese nicht verarbeiten kann
-    df_map_glatt = df.dropna(subset=["lat_glatt", "lon_glatt"])
-    df_map_orig = df.dropna(subset=["lat", "lon"])
 
-    if not df_map_glatt.empty and not df_map_orig.empty:
-        # Startpunkt für die Zentrierung der Karte festlegen
-        start_lat = df_map_orig["lat"].iloc[0]
-        start_lon = df_map_orig["lon"].iloc[0]
-        
-        # Endpunkt für die Markierung
-        end_lat = df_map_orig["lat"].iloc[-1]
-        end_lon = df_map_orig["lon"].iloc[-1]
 
-        # Karte initialisieren (OpenStreetMap als Standard)
-        karte = folium.Map(location=[start_lat, start_lon], zoom_start=14)
-
-        # Koordinaten-Paare für die Linie (PolyLine) vorbereiten
-        koordinaten_glatt = list(zip(df_map_glatt["lat_glatt"], df_map_glatt["lon_glatt"]))
-        koordinaten_orig = list(zip(df_map_orig["lat"], df_map_orig["lon"]))
-        # Die gefahrene geglättete Strecke als rote Linie auf der Karte einzeichnen
-        folium.PolyLine(
-            locations=koordinaten_glatt, 
-            color="red", 
-            weight=4, 
-            opacity=0.8,
-            tooltip="Gefahrene Strecke"
-        ).add_to(karte)
-        # Die gefahrene original Strecke als grün Linie auf der Karte einzeichnen
-        folium.PolyLine(
-            locations=koordinaten_orig, 
-            color="green", 
-            weight=4, 
-            opacity=0.8,
-            tooltip="Gefahrene Strecke"
-        ).add_to(karte)
-
-        # Start- und Zielmarker hinzufügen
-        folium.Marker(
-            [start_lat, start_lon], 
-            popup="Start", 
-            icon=folium.Icon(color="green", icon="play")
-        ).add_to(karte)
-        
-        folium.Marker(
-            [end_lat, end_lon], 
-            popup="Ziel", 
-            icon=folium.Icon(color="red", icon="stop")
-        ).add_to(karte)
-
-        # Karte als HTML-Datei speichern
-        karte.save("strecke_karte_vergleich.html")
-        print("Interaktive Karte wurde als 'strecke_karte_vergleich.html' gespeichert.")
-    else:
-        print("Keine gültigen GPS-Daten zum Plotten der Karte vorhanden.")
-
+    PlotStreckeAufKarte(df)
