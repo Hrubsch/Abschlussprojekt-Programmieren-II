@@ -59,9 +59,9 @@ def haversine(lat1, lon1, lat2, lon2):
 
 def glaette_gps(df):
     df = df.copy()
-    df["lat_glatt"] = df["lat"].rolling(window=10).mean()
-    df["lon_glatt"] = df["lon"].rolling(window=10).mean()
-    df["ele_glatt"] = df["ele"].rolling(window=10).mean()
+    df["lat_glatt"] = df["lat"].rolling(window=10, min_periods=1).mean()
+    df["lon_glatt"] = df["lon"].rolling(window=10, min_periods=1).mean()
+    df["ele_glatt"] = df["ele"].rolling(window=10, min_periods=1).mean()
     return df
 
 def luftdruck_berechnung(rho_0, M, g, R, temp, h):
@@ -69,10 +69,10 @@ def luftdruck_berechnung(rho_0, M, g, R, temp, h):
     T = temp + 273.15  # Umrechnung von °C in Kelvin
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
-    df["lat_glatt"] = df["lat"].rolling(window=10, min_periods=1).mean()
-    df["lon_glatt"] = df["lon"].rolling(window=10, min_periods=1).mean()
-    df["ele_glatt"] = df["ele"].rolling(window=10, min_periods=1).mean()
-    return df
+    #df["lat_glatt"] = df["lat"].rolling(window=10, min_periods=1).mean()
+    #df["lon_glatt"] = df["lon"].rolling(window=10, min_periods=1).mean()
+    #df["ele_glatt"] = df["ele"].rolling(window=10, min_periods=1).mean()
+    #return df
 
 def luftdruck_berechnung(rho_0, M, g, R, temp, h):
 
@@ -101,7 +101,6 @@ def PlotStreckeAufKarte(df : pd.DataFrame) -> None:
             logging.warning("Karten-Plot abgebrochen: Keine gültigen GPS-Daten vorhanden.")
             print("Keine gültigen GPS-Daten zum Plotten der Karte vorhanden.")
             return
-
 
         # Startpunkt für die Zentrierung der Karte festlegen
         start_lat = df_map_orig["lat"].iloc[0]
@@ -303,7 +302,6 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
                 logging.warning(f"API-Fehler bei Zeile {idx}: {e}")
                 ort = f"Fehler bei der Abfrage ({e})"
 
-
             # Warte 1 Sekunde, um den Fehler 429 (zu viele Anfragen) zu vermeiden
             time.sleep(1) # durch Warten dauert Funktion ca. 31 sek.
         
@@ -335,6 +333,7 @@ def simulation(df, masse, A, r_inch):
     g = 9.81                    # Erdbeschleunigung (≈ 9,81 m/s²)
     R = 8.314                   # Universelle Gaskonstante (\(8{,}314 \text{ J/(mol}\cdot\text{K)}\))
     T = 273.15                  # Absolute Temperatur in Kelvin (T in °C + 273,15)
+    c_R = 0.008                 # Rollwiderstandsbeiwert Quelle: https://de.wikipedia.org/wiki/Rollwiderstand
 
     df = glaette_gps(df)
     
@@ -348,33 +347,32 @@ def simulation(df, masse, A, r_inch):
         df["lat_glatt"],
         df["lon_glatt"]
     )
+    df["s"] = df["ds"].cumsum()                                                                     # zurückgelegte Strecke mit den geglätteten Werten
 
-
-    df["dt"] = df["time_s"].diff()  # Zeitdifferenz
-    df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
+    df["dt"] = df["time_s"].diff()                                                                  # Zeitdifferenz
+    #df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
     df["ds_orig"] = haversine(
         df["lat"].shift(),
         df["lon"].shift(),
         df["lat"],
         df["lon"]
     )
-    df["s_orig"] = df["ds_orig"].cumsum()     # zurückgelegte Strecke 
+    df["s_orig"] = df["ds_orig"].cumsum()                                                           # zurückgelegte Strecke mit original Werten 
 
-    df["dt"] = df["time_s"].diff()  # Zeitdifferenz
+    #df["dt"] = df["time_s"].diff()  # Zeitdifferenz
     #df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
 
-    df["s"] = df["ds"].cumsum()     # zurückgelegte Strecke
 
-    df["v"] = df["ds"] / df["dt"] # Geschwindigkeit
-    df.loc[df["v"] > 30, "v"] = np.nan # Geschwindigkeit > 30 m/s löschen
-    df["v"] = df["v"].interpolate() # fehlende Werte interpolieren
-    df["v"] = (df["v"].rolling(window=25, center=True, min_periods=1).mean()) # Glättung der Geschwindigkeit
+    df["v"] = df["ds"] / df["dt"]                                                                   # Geschwindigkeit
+    df.loc[df["v"] > 30, "v"] = np.nan                                                              # Geschwindigkeit > 30 m/s löschen
+    df["v"] = df["v"].interpolate()                                                                 # fehlende Werte interpolieren
+    df["v"] = (df["v"].rolling(window=25, center=True, min_periods=1).mean())                       # Glättung der Geschwindigkeit
 
     df["a"] = np.gradient(df["v"], df["time_s"])
-    df.loc[df["a"] > 1, "a"] = np.nan # Beschleunigung > 2 m/s² löschen
-    df.loc[df["a"] < -1, "a"] = np.nan # Beschleunigung < -2 m/s² löschen
+    df.loc[df["a"] > 1, "a"] = np.nan                                                               # Beschleunigung > 2 m/s² löschen
+    df.loc[df["a"] < -1, "a"] = np.nan                                                              # Beschleunigung < -2 m/s² löschen
     df["a"] = df["a"].interpolate()
-    df["a"] = df["a"].rolling(window=25, center=True, min_periods=1).mean() # Glättung der Beschleunigung
+    df["a"] = df["a"].rolling(window=25, center=True, min_periods=1).mean()                         # Glättung der Beschleunigung
 
 
     df["dh"] = df["ele_glatt"].diff()                                                               # Höhenänderung
@@ -385,15 +383,15 @@ def simulation(df, masse, A, r_inch):
     df["phi_rad"] = df["phi_rad"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Steigungswinkels
     df["phi_grad"] = np.degrees(df["phi_rad"])                                                      # Steigungswinkel in Grad
     
-    df["rho"] = luftdruck_berechnung(rho_0, M, g, R, T, df["ele_glatt"])                                     # Luftdichte in Abhängigkeit der Höhe
+    df["rho"] = luftdruck_berechnung(rho_0, M, g, R, T, df["ele_glatt"])                            # Luftdichte in Abhängigkeit der Höhe
 
-    df["F_D"] = 0.5 * df["rho"] * A * df["v"]**2                                                          # Luftwiderstand
+    df["F_D"] = 0.5 * df["rho"] * A * df["v"]**2                                                    # Luftwiderstand
     df["F_H"] = (m * g) * np.sin(df["phi_rad"])                                                     # Hangkraft
     df["F_A"] = m * df["a"]                                                                         # Beschleunigungskraft
 
     df["F_R"] = c_R * m * g * np.cos(df["phi_rad"])                                                 # Rollwiderstand https://de.wikipedia.org/wiki/Rollwiderstand
 
-    df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"]  + df["F_R"]                                           # Gesamte Antriebskraft
+    df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"]  + df["F_R"]                                # Gesamte Antriebskraft
     df["F_Antrieb"] = df["F_Antrieb"].rolling(window=25, center=True, min_periods=1).mean()         # Glättung der Antriebskraft
     
     df["P"] = df["F_Antrieb"] * df ["v"]                                                            # Berechnung der Leistung
@@ -405,28 +403,22 @@ def simulation(df, masse, A, r_inch):
     df["I_motor"] = df["T_drehmoment"] / m_konst                                                    # Berechnung Motorstrom bei bekannter Motorkonstante
     df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
 
-
     b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
     b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
+    simulatorb1 = BatterySimulator(b1)
+    simulatorb2 = BatterySimulator(b2)
     simulatorb1.simulation_ladezustand(df)
-    simulatorb1.plot_ladezustand(df)
-   
+    simulatorb2.simulation_ladezustand(df)
 
     soc_liste = simulatorb1.simulation_ladezustand(df)
     df["SOC"] = soc_liste
     simulatorb1.plot_ladezustand(df)
+    simulatorb2.plot_ladezustand(df)
 
-# Ergebnisse speichern
+    # Ergebnisse speichern
     return df
 
-
-
 def Output(df):
-
-
-
-    
-
 
     # Ergebnisse speichern
     df.to_csv("Output.csv", index=False)
@@ -441,7 +433,6 @@ def Output(df):
 
     # Ergebnisse speichern
     df.to_csv("Output.csv", index=False)
-
 
     for spalte in df.columns:
         if spalte in ["lat", "lon", "time", "ele", "ele_glatt", "ds", "dt", "dh","F_D", "F_H", "F_A", "F_R", "F_Antrieb", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s"]:
@@ -511,14 +502,7 @@ def parameterstudie(
         f"Parameterstudie_{parameter}_{kennwert}.png",
         dpi=300
     )
-create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")
 
-    #Ploten der Strecke auf einer Karte
-    PlotStreckeAufKarte(df)
-    
-    # höhenprofil ploten
-    hoehenprofil_steigung(df)
-  
 
 if __name__ == "__main__":
     df = pd.read_csv("final_project_input_data.csv", sep=";")
@@ -530,6 +514,16 @@ if __name__ == "__main__":
     parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
     parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
 
+    #Ploten der Strecke auf einer Karte
+    PlotStreckeAufKarte(df)
+    
+    # höhenprofil ploten
+    hoehenprofil_steigung(df)
+
     #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
     orte = reverse_goecoding(df)
-    print(orte)
+    print(orte)    
+    
+    
+    print(results)
+    create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")

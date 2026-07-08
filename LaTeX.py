@@ -34,7 +34,7 @@ def create_latex_report(results, filename="Auswertung", title="Auswertung der Fa
             table.add_row((bold("Kennwert"), bold("Wert")))
             table.add_hline()
             table.add_row(("Gesamtstrecke",
-                           f"{results['Gesamtstrecke']:.1f} m"))
+                           f"{results['s_orig']:.1f} m"))
             table.add_row(("Durchschnittsgeschwindigkeit",
                            f"{results['Durchschnittsgeschwindigkeit']:.2f} m/s"))
             table.add_row(("Maximalleistung",
