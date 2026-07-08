@@ -42,7 +42,8 @@ class nmc(BatteryPack):
 if __name__ == "__main__":
 
     try:
-        # Versuch, eine Batterie mit fehlerhaftem SoC (150%) zu erstellen
+        # Versuch, eine Batterie mit fehlerhaftem start SoC (150%) zu erstellen
+        print("Versuch, eine Batterie mit fehlerhaftem start SoC (150%) zu erstellen")
         falscher_akku = lifepo(initial_soc=1.5)
     except ValueError as e:
         print(f"Fehler erfolgreich abgefangen: {e}\n")
@@ -52,7 +53,7 @@ if __name__ == "__main__":
     
     # test der entladung
     print("Entlade Batterien schrittweise")
-    for _ in range(5):
+    for _ in range(3):
         b1.apply_current(current=50.0, duration=300) 
         b2.apply_current(current=50.0, duration=300)
 

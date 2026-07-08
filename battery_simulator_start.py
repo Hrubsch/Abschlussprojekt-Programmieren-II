@@ -8,7 +8,9 @@ from plotting_utils import (
     plot_voltage_and_current_profile,
 )
 
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterysimulator.log")
+# Holt den Logger für dieses spezifische Modul
+logger = logging.getLogger(__name__)
+#logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterysimulator.log")
 class BatterySimulator:
     """Simple simulator for a battery pack. The simulator applies a current profile to the battery pack and records the voltage profile."""
 
@@ -59,14 +61,6 @@ class BatterySimulator:
                 
                 self.battery_pack.apply_current(I_motor, dt)
 
-                # SOC darf nur zwischen 1 und 0 liegen begrenzung bereits in apply_current methode eingebaut
-                #if self.battery_pack.soc > 1:
-                    #logging.warning(f"[Zeile {i}] SOC übersteigt 100% ({self.battery_pack.soc * 100}%). Wird auf 100% begrenzt.")
-                    #self.battery_pack.soc = 1
-                #elif self.battery_pack.soc < 0:
-                    #logging.warning(f"[Zeile {i}] Akku leer! SOC unter 0% gefallen ({self.battery_pack.soc * 100}%). Wird auf 0% begrenzt.")
-                    #self.battery_pack.soc = 0
-
                 self.soc_liste.append(self.battery_pack.soc ) 
 
             except (ValueError, TypeError) as e:
@@ -86,17 +80,18 @@ class BatterySimulator:
         logging.info(f"Simulation beendet. {len(self.soc_liste)} Werte verarbeitet.")    
         return self.soc_liste
 
-    def plot_ladezustand(self, df):
+    def plot_ladezustand(self, spalten_name,df):
         """ploten des Ladezustandes"""
+
         fig, ax = plt.subplots()
-        ax.plot(df["time_s"],df["SOC"] * 100,label = "SOC(%)")
+        ax.plot(df["time_s"],df[spalten_name] * 100,label = "SOC(%)")
         ax.set_xlabel("t / s")
         ax.set_ylabel("SOC / %")
         ax.set_title("Ladezustand des Akkus über die Zeit")
         ax.grid()
         ax.legend(loc="upper right")
-        plt.savefig(f"plot_ladezustand.png", dpi=300, bbox_inches="tight")
-        plt.close()
+        plt.savefig(f"{spalten_name}.png", dpi=300, bbox_inches="tight")
+        plt.close(fig)
 
 
 if __name__ == "__main__":

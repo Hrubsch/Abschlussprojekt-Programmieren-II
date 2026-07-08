@@ -15,7 +15,7 @@ from scipy.ndimage import gaussian_filter1d
 from datetime import datetime
 
 from LaTeX import create_latex_report
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Main.log")
+logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Main.log", force=True)
 
 def Kenngroessen(df):
     # Maximalleistung
@@ -71,22 +71,11 @@ def luftdruck_berechnung(rho_0, M, g, R, temp, h):
     T = temp + 273.15  # Umrechnung von °C in Kelvin
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
-    #df["lat_glatt"] = df["lat"].rolling(window=10, min_periods=1).mean()
-    #df["lon_glatt"] = df["lon"].rolling(window=10, min_periods=1).mean()
-    #df["ele_glatt"] = df["ele"].rolling(window=10, min_periods=1).mean()
-    #return df
-
-def luftdruck_berechnung(rho_0, M, g, R, temp, h):
-
-    T = temp + 273.15  # Umrechnung von °C in Kelvin
-    rho = rho_0 * np.exp((-M * g * h) / (R * T))
-    return rho
 
 def PlotStreckeAufKarte(df : pd.DataFrame) -> None:
     """
     Die Originale und geplottete Strecke werden auf einer Folium-Karte geplotet
     """
-
     try:
         # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
         erforderliche_spalten = ["lat", "lon", "lat_glatt", "lon_glatt"]
@@ -112,8 +101,8 @@ def PlotStreckeAufKarte(df : pd.DataFrame) -> None:
         end_lat = df_map_orig["lat"].iloc[-1]
         end_lon = df_map_orig["lon"].iloc[-1]
 
-        # Karte initialisieren (OpenStreetMap als Standard)
-        karte = folium.Map(tiles="cartodb positron")
+        # Karte initialisieren 
+        karte = folium.Map(tiles="cartodb positron") # "cartodb positron" nutzen. Das blockiert Selenium nicht
 
         # Koordinaten-Paare für die Linie (PolyLine) vorbereiten
         koordinaten_glatt = list(zip(df_map_glatt["lat_glatt"], df_map_glatt["lon_glatt"]))
@@ -178,7 +167,6 @@ def hoehenprofil_steigung(df : pd.DataFrame)-> None:
     """
     Erstellt ein farbcodiertes Höhenprofil basierend auf der Steigung und speichert es als PNG.
     """
-    
     try:
         # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
         erforderliche_spalten = ["s_orig", "ele_glatt", "phi_rad"]
@@ -245,22 +233,6 @@ def hoehenprofil_steigung(df : pd.DataFrame)-> None:
     except Exception as e:
         logging.error(f"Unerwarteter Fehler bei der Diagrammerstellung: {e}", exc_info=True)
 
-def get_ort(lat, lon):
-    """Wandelt Breitengrad und Längengrad in eine lesbare Adresse um."""
-    try:
-        # Ein eindeutiger user_agent ist für den Nominatim-Dienst zwingend erforderlich
-        geolocator = Nominatim(user_agent="abschlussprojekt_ebike_tour_simulator")
-        location = geolocator.reverse((lat, lon), timeout=10) #timeout gibt max. Zeit an, die auf eine Antwort der API gewartet wird bevor die Verbindung abgebrochen wird
-        if location: # true wenn location erkannt wird
-            address = location.raw.get("address", {})
-            # Versuche den Stadtnamen oder das Dorf zu erkennen, erkennd kleinste urbane Einheit 
-            ort = address.get("village") or address.get("town") or address.get("city") or address.get("suburb")
-            # Falls kein spezifischer Ort gefunden wurde, nimm die formatierte Adresse
-            return ort if ort else location.address
-        return "Unbekannter Ort"
-    except Exception as e:
-        return f"Fehler bei der Abfrage ({e})"
-
 def reverse_goecoding(df : pd.DataFrame) -> list[str]:
     """Ermitteln der durchfahrenen Orte und ausgabe als Liste von str"""
     # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
@@ -291,12 +263,10 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
     for idx in range(0, len(df), schrittweite):
         try:
             row = df.iloc[idx]
-
             # Überspringe Zeilen mit NaN-Werten
             if pd.isna(row["s_orig"]) or pd.isna(row["lat"]) or pd.isna(row["lon"]):
                 logging.warning(f"Zeile {idx} wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.")
                 continue
-            
             # API abfragen
             ort = None
             ort_name = None
@@ -333,29 +303,25 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
 
     logging.info(f"Reverse Geocoding erfolgreich beendet")
     return liste_orte
-        
-  
 
 def simulation(df, masse, A, r_inch):
     g = 9.81
-    #rho = 1.225                # Luftdichte
-    m = masse                     # Masse Fahrrad + Fahrer
-    A = A                         # Produkt Stirnfläche, cw-Wert
-    r_inch = r_inch               # Raddurchmesser in inch
-    r_m = r_inch * 0.0254       # Raddurchmesser in mm
-    m_konst = 1.5               # Motorkonstante Nm/A
-    rho_0 = 1.225               # Luftdichte auf Meereshöhe (ca. 1,225 kg/m³)
-    M = 0.02896                 # Molare Masse der Luft (≈ 0,02896 kg/mol)
-    g = 9.81                    # Erdbeschleunigung (≈ 9,81 m/s²)
-    R = 8.314                   # Universelle Gaskonstante (\(8{,}314 \text{ J/(mol}\cdot\text{K)}\))
-    T = 273.15                  # Absolute Temperatur in Kelvin (T in °C + 273,15)
-    c_R = 0.008                 # Rollwiderstandsbeiwert Quelle: https://de.wikipedia.org/wiki/Rollwiderstand
+    m = masse                       # Masse Fahrrad + Fahrer
+    A = A                           # Produkt Stirnfläche, cw-Wert
+    r_inch = r_inch                 # Raddurchmesser in inch
+    r_m = r_inch * 0.0254           # Raddurchmesser in mm
+    m_konst = 1.5                   # Motorkonstante Nm/A
+    rho_0 = 1.225                   # Luftdichte auf Meereshöhe (ca. 1,225 kg/m³)
+    M = 0.02896                     # Molare Masse der Luft (≈ 0,02896 kg/mol)
+    g = 9.81                        # Erdbeschleunigung (≈ 9,81 m/s²)
+    R = 8.314                       # Universelle Gaskonstante (\(8{,}314 \text{ J/(mol}\cdot\text{K)}\))
+    T = 273.15                      # Absolute Temperatur in Kelvin (T in °C + 273,15)
+    c_R = 0.003                     # Rollwiderstandsbeiwert Quelle: https://www.rhetos.de/html/lex/rollwiderstandskoeffizienten.htm
 
     df = glaette_gps(df)
     
     df["time"] = pd.to_datetime(df["time"])
     df["time_s"] = (df["time"] - df["time"].iloc[0]).dt.total_seconds()
-
 
     df["ds"] = haversine(
         df["lat_glatt"].shift(),
@@ -366,7 +332,6 @@ def simulation(df, masse, A, r_inch):
     df["s"] = df["ds"].cumsum()                                                                     # zurückgelegte Strecke mit den geglätteten Werten
 
     df["dt"] = df["time_s"].diff()                                                                  # Zeitdifferenz
-    #df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
     df["ds_orig"] = haversine(
         df["lat"].shift(),
         df["lon"].shift(),
@@ -374,10 +339,6 @@ def simulation(df, masse, A, r_inch):
         df["lon"]
     )
     df["s_orig"] = df["ds_orig"].cumsum()                                                           # zurückgelegte Strecke mit original Werten 
-
-    #df["dt"] = df["time_s"].diff()  # Zeitdifferenz
-    #df = df[df["dt"] >= 1].copy()   # Zeilen mit dt < 1 Sekunde entfernen
-
 
     df["v"] = df["ds"] / df["dt"]                                                                   # Geschwindigkeit
     df.loc[df["v"] > 30, "v"] = np.nan                                                              # Geschwindigkeit > 30 m/s löschen
@@ -389,7 +350,6 @@ def simulation(df, masse, A, r_inch):
     df.loc[df["a"] < -1, "a"] = np.nan                                                              # Beschleunigung < -2 m/s² löschen
     df["a"] = df["a"].interpolate()
     df["a"] = df["a"].rolling(window=25, center=True, min_periods=1).mean()                         # Glättung der Beschleunigung
-
 
     df["dh"] = df["ele_glatt"].diff()                                                               # Höhenänderung
     df["phi_rad"] = np.arctan2(df["dh"], df["ds"])                                                  # Steigungswinkel
@@ -404,8 +364,7 @@ def simulation(df, masse, A, r_inch):
     df["F_D"] = 0.5 * df["rho"] * A * df["v"]**2                                                    # Luftwiderstand
     df["F_H"] = (m * g) * np.sin(df["phi_rad"])                                                     # Hangkraft
     df["F_A"] = m * df["a"]                                                                         # Beschleunigungskraft
-
-    df["F_R"] = c_R * m * g * np.cos(df["phi_rad"])                                                 # Rollwiderstand https://de.wikipedia.org/wiki/Rollwiderstand
+    df["F_R"] = c_R * m * g * np.cos(df["phi_rad"])                                                 # Rollwiderstand 
 
     df["F_Antrieb"] = df["F_D"] + df["F_H"] + df["F_A"]  + df["F_R"]                                # Gesamte Antriebskraft
     df["F_Antrieb"] = df["F_Antrieb"].rolling(window=25, center=True, min_periods=1).mean()         # Glättung der Antriebskraft
@@ -419,17 +378,18 @@ def simulation(df, masse, A, r_inch):
     df["I_motor"] = df["T_drehmoment"] / m_konst                                                    # Berechnung Motorstrom bei bekannter Motorkonstante
     df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
 
-    b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-    b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-    simulatorb1 = BatterySimulator(b1)
-    simulatorb2 = BatterySimulator(b2)
-    simulatorb1.simulation_ladezustand(df)
-    simulatorb2.simulation_ladezustand(df)
+    #Simulation des Laddezustande der beiden Akkutypen
+    b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)     # Ertellen einer Instanz des lifepo Akkus
+    b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)        # Erstellen einer Instanz des nmc Akkus
+    simulatorb1 = BatterySimulator(b1)                          # Erstellen eine Instanz der Klasse BatterySimulator
+    simulatorb2 = BatterySimulator(b2)                          # Erstellen eine Instanz der Klasse BatterySimulator
 
-    soc_liste = simulatorb1.simulation_ladezustand(df)
-    df["SOC"] = soc_liste
-    simulatorb1.plot_ladezustand(df)
-    simulatorb2.plot_ladezustand(df)
+    soc_liste_lifepo = simulatorb1.simulation_ladezustand(df)   # Speichern der durch die Methode simulation_ladezustand zurück gegebenen Liste an Ladezuständen
+    soc_liste_nmc = simulatorb2.simulation_ladezustand(df)      # Speichern der durch die Methode simulation_ladezustand zurück gegebenen Liste an Ladezuständen
+    df["SOC_lifepo"] = soc_liste_lifepo                         # Hinzufügen einer neuen Spalte im Pandas-DataFrame für den SOC
+    df["SOC_nmc"] = soc_liste_nmc                               # Hinzufügen einer neuen Spalte im Pandas-DataFrame für den SOC
+    simulatorb1.plot_ladezustand("SOC_lifepo",df)               # ploten und als .png Speichern des Ladezustandes über die Zeit mit der plot_ladezustand Methode
+    simulatorb2.plot_ladezustand("SOC_nmc",df)                  # ploten und als .png Speichern des Ladezustandes über die Zeit mit der plot_ladezustand Methode
 
     # Ergebnisse speichern
     return df
@@ -452,7 +412,7 @@ def Output(df):
     df.to_csv("Output.csv", index=False)
 
     for spalte in df.columns:
-        if spalte in ["lat", "lon", "time", "ele", "ele_glatt", "ds", "dt", "dh","F_D", "F_H", "F_A", "F_R", "F_Antrieb", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s"]:
+        if spalte in ["lat", "lon", "time", "ele", "ele_glatt", "ds", "dt", "dh","F_D", "F_H", "F_A", "F_R", "F_Antrieb", "temp", "phi_rad", "lat_glatt", "lon_glatt", "time_s","SOC_lifepo","SOC_nmc","SOC"]:
             continue
 
         plt.figure(figsize=(10, 5))
@@ -472,8 +432,6 @@ def Output(df):
             plt.ylabel(f"{spalte} [Nm]")
         elif spalte == "I_motor":
             plt.ylabel(f"{spalte} [A]")
-        elif spalte == "SOC":
-            plt.ylabel(f"{spalte} [%]")
         elif spalte == "ele":
             plt.ylabel(f"{spalte} [m]")
             plt.title("Höhe über der Zeit")
@@ -522,26 +480,32 @@ def parameterstudie(
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("final_project_input_data.csv", sep=";")
-    results = {}
-    df = simulation(df, masse=80, A=0.5625, r_inch=27)
-    Output(df)
+    try:
+        df = pd.read_csv("final_project_input_data.csv", sep=";")
+        results = {}
+        df = simulation(df, masse=80, A=0.5625, r_inch=27)
+        Output(df)
 
-    parameterstudie(df, parameter="masse", werte=np.arange(60,121,5))
-    parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
-    parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
+        parameterstudie(df, parameter="masse", werte=np.arange(60,121,5))
+        parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
+        parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
 
-    #Ploten der Strecke auf einer Karte
-    PlotStreckeAufKarte(df)
-    
-    # höhenprofil ploten
-    hoehenprofil_steigung(df)
+        #Ploten der Strecke auf einer Karte
+        PlotStreckeAufKarte(df)
+        
+        # höhenprofil ploten
+        hoehenprofil_steigung(df)
 
-    #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
-    orte = reverse_goecoding(df)
-    print(orte)    
-    
-    
-    print(results)
-    results = Kenngroessen(df)
-    create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")
+        #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
+        #orte = reverse_goecoding(df)
+        #print(orte)    
+        
+        
+        #print(results)
+        #results = Kenngroessen(df)
+        #create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")
+    except Exception as e:
+        logging.error(f"Kritischer Fehler im Hauptprogramm: {e}", exc_info=True)
+    finally:
+        # Erzwingt das Schreiben und Schließen der Log-Datei
+        logging.shutdown()

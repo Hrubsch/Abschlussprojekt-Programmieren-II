@@ -1,6 +1,7 @@
 import logging
-
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterypack.log")
+# Holt den Logger für dieses spezifische Modul
+logger = logging.getLogger(__name__)
+#logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterypack.log")
 class BatteryPack:
     """
     Simple model of a battery pack as a single cell.
@@ -64,7 +65,7 @@ class BatteryPack:
 
 if __name__ == "__main__":
 
-    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)
+    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7,anz_parallel = 2 )
     print(battery)
 
     battery.apply_current(current=5.0, duration=300.0)
