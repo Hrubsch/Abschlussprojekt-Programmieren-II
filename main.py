@@ -21,7 +21,8 @@ def Kenngroessen(df):
     # Maximalleistung
     P_max = df["P"].max()
     # Gesamtstrecke
-    Gesamtstrecke = df["ds"].sum()
+    Gesamtstrecke_Original = df["ds_orig"].sum() 
+    Gesamtstrecke_Glatt = df["ds"].sum() 
     # Durchschnittsgeschwindigkeit
     Durchschnittsgeschwindigkeit = df["v"].mean()
     # Gesamtzeit
@@ -34,7 +35,8 @@ def Kenngroessen(df):
 
     return {
         "P_max": P_max,
-        "Gesamtstrecke": Gesamtstrecke,
+        "Gesamtstrecke_Original": Gesamtstrecke_Original,
+        "Gesamtstrecke_Glatt": Gesamtstrecke_Glatt,
         "Durchschnittsgeschwindigkeit": Durchschnittsgeschwindigkeit,
         "Gesamtzeit": Gesamtzeit,
         "Anstieg": anstieg,
@@ -424,7 +426,8 @@ def Output(df):
     df.to_csv("Output.csv", index=False)
 
     results = Kenngroessen(df)
-    print(f"\nGesamtdistanz: {results['Gesamtstrecke']:.1f} m")
+    print(f"Gesamtstrecke mit originalen Daten: {results['Gesamtstrecke_Original']:.1f} m")
+    print(f"Gesamtstrecke mit geglätteten Daten: {results['Gesamtstrecke_Glatt']:.1f} m")
     print(f"Durchschnittsgeschwindigkeit: {results['Durchschnittsgeschwindigkeit']:.1f} m/s")
     print(f"Maximalleistung: {results['P_max']:.1f} W")
     print(f"Gesamtzeit: {results['Gesamtzeit']}")
@@ -526,4 +529,5 @@ if __name__ == "__main__":
     
     
     print(results)
+    results = Kenngroessen(df)
     create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")
