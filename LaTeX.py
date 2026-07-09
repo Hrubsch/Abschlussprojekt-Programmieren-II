@@ -9,9 +9,10 @@ from pylatex import (
 )
 from pylatex.utils import bold
 import os
+import subprocess
 
 
-def create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten"):
+def create_latex_report(results, Orte, filename="Auswertung", title="Auswertung der Fahrraddaten"):
     doc = Document(documentclass="article")
 
     # Pakete
@@ -45,6 +46,8 @@ def create_latex_report(results, filename="Auswertung", title="Auswertung der Fa
                            f"{results['Anstieg']:.1f} m"))
             table.add_row(("Gesamter Abstieg",
                            f"{results['Abstieg']:.1f} m"))
+            table.add_row("Besuchte Orte in Reihenfolge:",
+                          str(Orte))
 
             table.add_hline()
 
@@ -60,8 +63,7 @@ def create_latex_report(results, filename="Auswertung", title="Auswertung der Fa
                     fig.add_image(image, width=NoEscape(r"0.95\textwidth"))
                     fig.add_caption(plotname)
 
-    doc.generate_pdf(filename,
-                     clean_tex=False,
-                     clean=True)
-
-    print(f"Bericht '{filename}.pdf' wurde erstellt.")
+    doc.generate_tex(filepath="Auswertung")
+    #doc.generate_pdf(filename, clean_tex=False, clean=True)
+    print(f"Bericht '{filename}.tex' wurde erstellt.")
+  
