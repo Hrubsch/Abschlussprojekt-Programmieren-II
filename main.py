@@ -26,7 +26,7 @@ def Kenngroessen(df):
     # Durchschnittsgeschwindigkeit
     Durchschnittsgeschwindigkeit = df["v"].mean()
     # Gesamtzeit
-    Gesamtzeit = df["time"].iloc[-1] - df["time"].iloc[0]
+    Gesamtzeit = (df["time"].iloc[-1] - df["time"].iloc[0])
     # Höhenänderungen
     hoehenaenderung = df["ele"].diff()
     # Gesamter Anstieg und Abstieg
@@ -225,6 +225,7 @@ def hoehenprofil_steigung(df : pd.DataFrame)-> None:
         plt.savefig("hoehenprofil_steigung.png")
         plt.close() # schließt das Fenster
         logging.info("Höhenprofil erfolgreich generiert und gespeichert.")
+        print("Höhenprofil erfolgreich generiert und als `hoehenprofil_steigung.png` gespeichert.")
 
     except KeyError as ke:
         logging.error(f"Datenfehler in hoehenprofil_steigung: {ke}")
@@ -233,7 +234,7 @@ def hoehenprofil_steigung(df : pd.DataFrame)-> None:
     except Exception as e:
         logging.error(f"Unerwarteter Fehler bei der Diagrammerstellung: {e}", exc_info=True)
 
-def reverse_goecoding(df : pd.DataFrame) -> list[str]:
+def reverse_geocoding(df : pd.DataFrame) -> list[str]:
     """Ermitteln der durchfahrenen Orte und ausgabe als Liste von str"""
     # Prüfen, ob die absolut notwendigen Spalten überhaupt im DataFrame existieren
     erforderliche_spalten = ["s_orig", "lat", "lon", "ele"]
@@ -250,10 +251,11 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
     liste_orte = [] 
     letzter_ort = None
     
-    # Berechnung der Schrittweite. Wenn // <30 dann schrittweite größer => ungenauer. Wenn // >30 dann schrittweite kleiner => genauer
+    # Berechnung der Schrittweite. Dadurch wird ermitteln der Ort schneller
+    # Wenn // <30 dann schrittweite größer => ungenauer. Wenn // >30 dann schrittweite kleiner => genauer
     schrittweite = max(1, len(df) // 30) # Schrittweite ca. 76
     
-    print("Ermittle Orte entlang der Strecke...")
+    print("Ermittle Orte entlang der Strecke (dies kann einen Moment dauern)...")
     logging.info(f"Starte Reverse Geocoding mit {len(df)} Zeilen. Schrittweite: {schrittweite}")
     # Verhindert, dass die erste Anfrage direkt nach den Karten-Plots blockiert wird
     time.sleep(2)
@@ -302,6 +304,18 @@ def reverse_goecoding(df : pd.DataFrame) -> list[str]:
             continue
 
     logging.info(f"Reverse Geocoding erfolgreich beendet")
+
+    # Speichern der durchfahrenen Orte als .txt Datei
+    try:
+        datei_name = "durchfahrene_orte.txt"
+        with open(datei_name, "w", encoding="utf-8") as f: # with .. as f Datei wird automatisch wieder gedchlossen; open(datei_name,..) ... öffnen der Datei; w ... write; encoding="utf-8" ... auch Umlaute können geschrieben werden
+            for ort in liste_orte:
+                f.write(f"{ort}\n") # \n ... Zeilenumbruch
+        logging.info(f"Orte erfolgreich in {datei_name} exportiert.")
+        print(f"Orte erfolgreich in '{datei_name}' gespeichert.")
+    except Exception as e:
+        logging.error(f"Fehler beim Schreiben der TXT-Datei: {e}")
+
     return liste_orte
 
 def simulation(df, masse, A, r_inch):
@@ -379,8 +393,8 @@ def simulation(df, masse, A, r_inch):
     df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
 
     #Simulation des Laddezustande der beiden Akkutypen
-    b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)     # Ertellen einer Instanz des lifepo Akkus
-    b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)        # Erstellen einer Instanz des nmc Akkus
+    b1 = lifepo(capacity_nom_cell_Ah=30.0, initial_soc=1.0)     # Ertellen einer Instanz des lifepo Akkus
+    b2 = nmc(capacity_nom_cell_Ah=30.0, initial_soc=1.0)        # Erstellen einer Instanz des nmc Akkus
     simulatorb1 = BatterySimulator(b1)                          # Erstellen eine Instanz der Klasse BatterySimulator
     simulatorb2 = BatterySimulator(b2)                          # Erstellen eine Instanz der Klasse BatterySimulator
 
@@ -448,6 +462,7 @@ def parameterstudie(
     werte,
     kennwert = "P_max"
 ):
+    logging.warning(f"Start der Parameterstudie")
     x = []
     y = []
     for wert in werte:
@@ -477,7 +492,7 @@ def parameterstudie(
         f"Parameterstudie_{parameter}_{kennwert}.png",
         dpi=300
     )
-
+    logging.warning(f"Ende der Parameterstudie")
 
 if __name__ == "__main__":
     try:
@@ -486,10 +501,6 @@ if __name__ == "__main__":
         df = simulation(df, masse=80, A=0.5625, r_inch=27)
         Output(df)
 
-        parameterstudie(df, parameter="masse", werte=np.arange(60,121,5))
-        parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
-        parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
-
         #Ploten der Strecke auf einer Karte
         PlotStreckeAufKarte(df)
         
@@ -497,15 +508,16 @@ if __name__ == "__main__":
         hoehenprofil_steigung(df)
 
         #Reverse Geocoding ( Ermitten der orte entlang der Strecke)
-        #orte = reverse_goecoding(df)
-        #print(orte)    
-        
-        
+        orte = reverse_geocoding(df)
+        print(orte)   
+
+        # Parameterstudien
+        parameterstudie(df, parameter="masse", werte=np.arange(60,121,5))
+        parameterstudie(df, parameter="A", werte=np.arange(0.5,5,0.5))
+        parameterstudie(df, parameter="r_inch", werte=np.arange(20,31,1))
+
         #print(results)
         #results = Kenngroessen(df)
         #create_latex_report(results, filename="Auswertung", title="Auswertung der Fahrraddaten")
     except Exception as e:
         logging.error(f"Kritischer Fehler im Hauptprogramm: {e}", exc_info=True)
-    finally:
-        # Erzwingt das Schreiben und Schließen der Log-Datei
-        logging.shutdown()

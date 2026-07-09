@@ -90,26 +90,15 @@ class BatterySimulator:
         ax.set_title("Ladezustand des Akkus über die Zeit")
         ax.grid()
         ax.legend(loc="upper right")
-        plt.savefig(f"{spalten_name}.png", dpi=300, bbox_inches="tight")
+        plt.savefig(f"{spalten_name}.png")
         plt.close(fig)
+        logging.info(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
+        print(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
 
 
 if __name__ == "__main__":
     print("Start der Testläufe")
 
-    load_current = [3.0, 11.0, 4.0, -1.5, 1.0]
-    load_durations = [300.0, 240.0, 90.0, 150.0, 120.0]
-
-    plot_current_profile(current_profile=load_current, duration_profile=load_durations)
-
-    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, anz_parallel = 2)
-    bat_sim = BatterySimulator(battery)
-    bat_sim.simulate(load_current, load_durations)
-    print(battery)
-
-    plot_voltage_profile(voltage_profile=bat_sim.voltage_profile, duration_profile=load_durations)
-    plot_voltage_and_current_profile(bat_sim.voltage_profile, load_current, load_durations)
-    input("press Enter to cuntinue:")
 
     # Normaler Fahrbetrieb (Basis)
     print("\n[TEST 1] Normaler Fahrbetrieb:")
@@ -156,3 +145,18 @@ if __name__ == "__main__":
     bat4 = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.5, anz_parallel=2)
     sim4 = BatterySimulator(bat4)
     df_corrupt["SOC"] = sim4.simulation_ladezustand(df_corrupt)
+
+    #ursprüngliche tests
+    load_current = [3.0, 11.0, 4.0, -1.5, 1.0]
+    load_durations = [300.0, 240.0, 90.0, 150.0, 120.0]
+
+    plot_current_profile(current_profile=load_current, duration_profile=load_durations)
+
+    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, anz_parallel = 2)
+    bat_sim = BatterySimulator(battery)
+    bat_sim.simulate(load_current, load_durations)
+    print(battery)
+
+    plot_voltage_profile(voltage_profile=bat_sim.voltage_profile, duration_profile=load_durations)
+    plot_voltage_and_current_profile(bat_sim.voltage_profile, load_current, load_durations)
+    input("press Enter to cuntinue:")
