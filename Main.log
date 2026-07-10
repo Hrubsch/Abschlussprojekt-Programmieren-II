@@ -1,0 +1,734 @@
+2026-07-09 21:49:45,118:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:49:45,118:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:49:45,118:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:49:45,118:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:49:45,118:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:49:45,148:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:49:45,148:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:49:45,176:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:49:45,336:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:49:45,441:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:49:47,342:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-09 21:49:58,883:INFO: Abbildung wurde erfolgreich als 'strecke_karte_abbildung.png' gespeichert.
+2026-07-09 21:49:59,014:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-09 21:49:59,014:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-09 21:50:01,026:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-09 21:50:31,759:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-09 21:50:31,760:INFO: Orte erfolgreich in durchfahrene_orte.txt exportiert.
+2026-07-09 21:50:31,761:WARNING: Start der Parameterstudie
+2026-07-09 21:50:31,774:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:31,774:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:31,774:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:31,774:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:31,774:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:31,809:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:31,809:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:31,840:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:31,944:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:32,048:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:32,057:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,057:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,057:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,057:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,057:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,092:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,092:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,122:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,212:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:32,307:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:32,318:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,318:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,318:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,318:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,318:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,354:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,354:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,384:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,485:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:32,582:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:32,640:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,640:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,640:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,640:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,640:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,671:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,672:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,703:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,808:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:32,903:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:32,912:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,912:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:32,912:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,912:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:32,912:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,943:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:32,943:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:32,974:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,061:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:33,148:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:33,156:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,156:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,156:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,156:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,156:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,183:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,183:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,211:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,303:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:33,389:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:33,398:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,398:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,398:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,398:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,398:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,424:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,424:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,450:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,549:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:33,636:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:33,645:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,646:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,646:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,646:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,646:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,674:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,674:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,700:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,814:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:33,899:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:33,907:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,907:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:33,907:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,907:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:33,907:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,935:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:33,935:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:33,963:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,048:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:34,138:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:34,152:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,152:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,152:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,152:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,152:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,179:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,179:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,206:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,294:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:34,384:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:34,407:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,407:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,407:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,407:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,407:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,433:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,433:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,459:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,540:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:34,623:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:34,632:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,632:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,632:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,632:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,632:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,658:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,659:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,687:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,776:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:34,866:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:34,874:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,875:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:34,875:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,875:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:34,875:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,903:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:34,903:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:34,937:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,029:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:35,124:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:35,276:WARNING: Ende der Parameterstudie
+2026-07-09 21:50:35,276:WARNING: Start der Parameterstudie
+2026-07-09 21:50:35,284:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,284:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,285:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,285:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,285:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,313:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,313:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,346:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,458:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:35,552:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:35,562:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,562:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,562:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,562:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,562:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,593:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,593:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,624:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,713:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:35,795:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:35,805:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,805:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:35,805:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,806:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:35,806:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,827:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:35,837:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,837:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:35,860:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:35,868:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:35,956:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:36,043:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:36,051:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,051:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,051:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,051:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,051:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,067:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,078:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,078:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,093:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,104:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,183:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:36,271:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:36,279:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,279:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,279:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,279:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,279:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,294:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,308:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,308:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,324:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,341:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,424:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:36,504:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:36,512:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,513:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,513:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,513:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,513:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,525:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,541:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,541:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,552:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,568:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,648:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:36,727:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:36,769:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,770:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,770:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,770:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,770:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,780:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,797:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,798:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,808:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:36,824:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:36,903:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:36,979:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:36,988:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,988:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:36,988:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,988:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:36,988:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:36,997:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:37,015:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,015:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,024:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:37,042:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,125:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:37,201:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:37,209:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,209:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,209:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,209:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,209:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,218:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:37,238:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,239:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,248:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:50:37,267:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,375:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:37,465:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:37,648:WARNING: Ende der Parameterstudie
+2026-07-09 21:50:37,648:WARNING: Start der Parameterstudie
+2026-07-09 21:50:37,656:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,656:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,656:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,656:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,656:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,682:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,683:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,708:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,830:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:37,929:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:37,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,942:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:37,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,942:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:37,942:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:37,970:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:37,970:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,001:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,085:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:38,175:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:38,185:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,193:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,193:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,193:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,193:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,225:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,225:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,256:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,347:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:38,438:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:38,450:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,450:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,450:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,450:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,451:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,481:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,482:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,512:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,606:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:38,688:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:38,710:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,710:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,710:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,710:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,710:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,738:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,739:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,766:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,878:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:38,958:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:38,967:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,967:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:38,967:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,967:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:38,967:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:38,994:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:38,994:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,020:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,107:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:39,198:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:39,207:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,207:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,207:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,207:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,207:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,242:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,242:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,278:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,383:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:39,476:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:39,485:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,485:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,485:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,485:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,485:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,516:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,516:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,543:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,649:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:39,730:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:39,739:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,739:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,739:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,739:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,739:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,772:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,772:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:39,802:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:39,887:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:39,970:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:39,979:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,979:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:39,979:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,979:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:39,979:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:40,006:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:40,006:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:40,036:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:40,119:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:40,207:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:40,215:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:40,215:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:50:40,215:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:40,215:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:50:40,215:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:40,243:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:40,243:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:50:40,273:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:50:40,356:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:50:40,438:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:50:40,555:WARNING: Ende der Parameterstudie
+2026-07-09 21:52:47,589:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:52:47,589:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:52:47,590:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:52:47,590:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:52:47,590:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:52:47,621:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:52:47,621:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:52:47,650:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:52:47,828:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:52:47,941:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:52:49,852:INFO: Karte wurde als 'strecke_karte_vergleich.html' gespeichert.
+2026-07-09 21:53:01,342:INFO: Abbildung wurde erfolgreich als 'strecke_karte_abbildung.png' gespeichert.
+2026-07-09 21:53:01,476:INFO: Höhenprofil erfolgreich generiert und gespeichert.
+2026-07-09 21:53:01,476:INFO: Starte Reverse Geocoding mit 2284 Zeilen. Schrittweite: 76
+2026-07-09 21:53:03,488:WARNING: Zeile 0 wurde übersprungen, weil kein gültiger Wert (NaN) eingetragen ist.
+2026-07-09 21:53:34,361:INFO: Reverse Geocoding erfolgreich beendet
+2026-07-09 21:53:34,362:INFO: Orte erfolgreich in durchfahrene_orte.txt exportiert.
+2026-07-09 21:53:34,363:WARNING: Start der Parameterstudie
+2026-07-09 21:53:34,371:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,371:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,371:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,371:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,371:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,402:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:34,402:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,433:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:34,522:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:34,610:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:34,618:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,618:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,618:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,618:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,618:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,645:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:34,645:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,673:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:34,762:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:34,855:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:34,865:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,865:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:34,865:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,865:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:34,865:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,921:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:34,921:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:34,947:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,035:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:35,130:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:35,182:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,183:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,183:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,183:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,183:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,212:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,212:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,242:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,334:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:35,424:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:35,434:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,435:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,435:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,435:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,435:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,466:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,466:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,495:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,608:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:35,700:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:35,710:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,710:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,710:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,710:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,710:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,741:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,741:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,771:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,866:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:35,955:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:35,965:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,965:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:35,965:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,965:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:35,965:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:35,995:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:35,995:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,022:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,120:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:36,203:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:36,212:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,212:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,212:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,212:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,213:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,243:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,243:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,272:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,358:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:36,451:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:36,459:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,459:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,459:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,459:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,459:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,487:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,487:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,517:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,602:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:36,688:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:36,703:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,703:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,703:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,703:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,703:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,729:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,729:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:36,757:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:36,862:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:36,964:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:36,988:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,988:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:36,988:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,988:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:36,988:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,018:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,018:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,059:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,221:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:37,316:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:37,326:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,326:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,326:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,326:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,326:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,355:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,355:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,386:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,483:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:37,573:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:37,581:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,582:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,582:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,582:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,582:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,612:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,612:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,640:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,729:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:37,814:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:37,957:WARNING: Ende der Parameterstudie
+2026-07-09 21:53:37,957:WARNING: Start der Parameterstudie
+2026-07-09 21:53:37,966:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,966:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:37,966:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,966:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:37,966:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:37,999:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:37,999:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,032:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,144:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:38,229:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:38,236:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,237:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,237:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,237:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,237:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,266:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,267:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,295:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,379:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:38,488:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:38,498:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,498:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,498:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,498:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,498:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,522:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:38,529:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,529:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,550:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:38,558:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,642:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:38,726:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:38,734:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,734:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,734:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,734:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,734:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,751:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:38,764:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,764:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,780:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:38,792:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,873:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:38,955:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:38,964:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,965:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:38,965:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,965:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:38,965:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:38,979:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:38,995:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:38,995:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,008:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,022:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,105:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:39,194:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:39,202:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,202:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,202:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,202:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,203:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,215:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,231:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,231:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,242:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,257:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,338:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:39,421:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:39,464:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,464:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,464:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,464:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,464:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,476:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,494:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,494:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,505:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,521:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,598:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:39,679:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:39,688:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,688:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,688:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,688:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,688:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,697:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,716:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,716:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,725:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,743:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,829:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:39,911:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:39,920:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,920:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:39,920:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,920:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:39,920:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,929:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,947:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:39,948:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:39,956:WARNING: Batterie ist vollständig entladen!
+2026-07-09 21:53:39,974:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,060:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:40,150:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:40,287:WARNING: Ende der Parameterstudie
+2026-07-09 21:53:40,288:WARNING: Start der Parameterstudie
+2026-07-09 21:53:40,297:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,297:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,297:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,297:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,297:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,324:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,325:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,350:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,449:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:40,533:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:40,543:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,543:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,543:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,543:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,543:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,572:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,572:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,602:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,685:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:40,769:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:40,778:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,778:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:40,778:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,778:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:40,778:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,807:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,807:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:40,835:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:40,924:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:41,009:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:41,020:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,020:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,020:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,020:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,020:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,050:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,050:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,077:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,163:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:41,245:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:41,266:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,266:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,266:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,266:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,267:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,295:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,296:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,322:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,403:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:41,487:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:41,496:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,496:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,496:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,496:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,496:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,524:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,525:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,551:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,631:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:41,715:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:41,723:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,723:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,723:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,723:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,723:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,753:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,753:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,784:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,866:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:41,955:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:41,966:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,966:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:41,966:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,966:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:41,966:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:41,994:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:41,994:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,028:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,137:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:42,222:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:42,230:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,231:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,231:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,231:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,231:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,259:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,259:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,287:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,375:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:42,468:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:42,477:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,477:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,477:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,477:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,477:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,505:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,505:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,535:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,645:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:42,733:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:42,740:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,740:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-09 21:53:42,741:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,741:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-09 21:53:42,741:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,769:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,769:INFO: Starte Simulation des Ladezustands
+2026-07-09 21:53:42,798:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-09 21:53:42,880:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
+2026-07-09 21:53:42,965:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
+2026-07-09 21:53:43,081:WARNING: Ende der Parameterstudie

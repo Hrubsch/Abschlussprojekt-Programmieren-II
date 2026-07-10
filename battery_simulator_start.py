@@ -8,7 +8,9 @@ from plotting_utils import (
     plot_voltage_and_current_profile,
 )
 
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterysimulator.log")
+# Holt den Logger für dieses spezifische Modul
+logger = logging.getLogger(__name__)
+#logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterysimulator.log")
 class BatterySimulator:
     """Simple simulator for a battery pack. The simulator applies a current profile to the battery pack and records the voltage profile."""
 
@@ -59,14 +61,6 @@ class BatterySimulator:
                 
                 self.battery_pack.apply_current(I_motor, dt)
 
-                # SOC darf nur zwischen 1 und 0 liegen begrenzung bereits in apply_current methode eingebaut
-                #if self.battery_pack.soc > 1:
-                    #logging.warning(f"[Zeile {i}] SOC übersteigt 100% ({self.battery_pack.soc * 100}%). Wird auf 100% begrenzt.")
-                    #self.battery_pack.soc = 1
-                #elif self.battery_pack.soc < 0:
-                    #logging.warning(f"[Zeile {i}] Akku leer! SOC unter 0% gefallen ({self.battery_pack.soc * 100}%). Wird auf 0% begrenzt.")
-                    #self.battery_pack.soc = 0
-
                 self.soc_liste.append(self.battery_pack.soc ) 
 
             except (ValueError, TypeError) as e:
@@ -86,35 +80,25 @@ class BatterySimulator:
         logging.info(f"Simulation beendet. {len(self.soc_liste)} Werte verarbeitet.")    
         return self.soc_liste
 
-    def plot_ladezustand(self, df):
+    def plot_ladezustand(self, spalten_name,df):
         """ploten des Ladezustandes"""
+
         fig, ax = plt.subplots()
-        ax.plot(df["time_s"],df["SOC"] * 100,label = "SOC(%)")
+        ax.plot(df["time_s"],df[spalten_name] * 100,label = "SOC(%)")
         ax.set_xlabel("t / s")
         ax.set_ylabel("SOC / %")
         ax.set_title("Ladezustand des Akkus über die Zeit")
         ax.grid()
         ax.legend(loc="upper right")
-        plt.savefig(f"plot_ladezustand.png", dpi=300, bbox_inches="tight")
-        plt.close()
+        plt.savefig(f"{spalten_name}.png")
+        plt.close(fig)
+        logging.info(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
+        print(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
 
 
 if __name__ == "__main__":
     print("Start der Testläufe")
 
-    load_current = [3.0, 11.0, 4.0, -1.5, 1.0]
-    load_durations = [300.0, 240.0, 90.0, 150.0, 120.0]
-
-    plot_current_profile(current_profile=load_current, duration_profile=load_durations)
-
-    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, anz_parallel = 2)
-    bat_sim = BatterySimulator(battery)
-    bat_sim.simulate(load_current, load_durations)
-    print(battery)
-
-    plot_voltage_profile(voltage_profile=bat_sim.voltage_profile, duration_profile=load_durations)
-    plot_voltage_and_current_profile(bat_sim.voltage_profile, load_current, load_durations)
-    input("press Enter to cuntinue:")
 
     # Normaler Fahrbetrieb (Basis)
     print("\n[TEST 1] Normaler Fahrbetrieb:")
@@ -161,3 +145,18 @@ if __name__ == "__main__":
     bat4 = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.5, anz_parallel=2)
     sim4 = BatterySimulator(bat4)
     df_corrupt["SOC"] = sim4.simulation_ladezustand(df_corrupt)
+
+    #ursprüngliche tests
+    load_current = [3.0, 11.0, 4.0, -1.5, 1.0]
+    load_durations = [300.0, 240.0, 90.0, 150.0, 120.0]
+
+    plot_current_profile(current_profile=load_current, duration_profile=load_durations)
+
+    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, anz_parallel = 2)
+    bat_sim = BatterySimulator(battery)
+    bat_sim.simulate(load_current, load_durations)
+    print(battery)
+
+    plot_voltage_profile(voltage_profile=bat_sim.voltage_profile, duration_profile=load_durations)
+    plot_voltage_and_current_profile(bat_sim.voltage_profile, load_current, load_durations)
+    input("press Enter to cuntinue:")

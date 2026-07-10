@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 from LaTeX import create_latex_report
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Main.log")
+logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Main.log", force=True)
 
 def Kenngroessen(df: pd.DataFrame) -> dict:
     """
@@ -95,24 +95,14 @@ def haversine(lat1, lon1, lat2, lon2):
 
         dlat = lat2 - lat1
         dlon = lon2 - lon1
-
-        a = (
-            np.sin(dlat / 2) ** 2
-            + np.cos(lat1)
-            * np.cos(lat2)
-            * np.sin(dlon / 2) ** 2
-        )
-
+        a = (np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2)
         c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1 - a))
-
         d = R * c
 
         logging.info("Haversine-Berechnung erfolgreich.")
-
         return d
 
     except Exception as e:
-
         logging.error(
             f"Fehler in haversine(): {e}",
             exc_info=True
@@ -120,48 +110,33 @@ def haversine(lat1, lon1, lat2, lon2):
         raise
 
 def glaette_gps(df: pd.DataFrame):
-
     logging.info("Starte Glättung der GPS-Daten.")
-
     try:
-
         if df.empty:
             raise ValueError("DataFrame ist leer.")
-
-        erforderliche_spalten = [
-            "lat",
-            "lon",
-            "ele"
-        ]
-
+        erforderliche_spalten = ["lat", "lon", "ele"]
         for spalte in erforderliche_spalten:
             if spalte not in df.columns:
                 raise KeyError(f"{spalte} fehlt.")
 
         df = df.copy()
-
         df["lat_glatt"] = (df["lat"].rolling(window=10, min_periods=1).mean())
         df["lon_glatt"] = (df["lon"].rolling(window=10, min_periods=1).mean())
         df["ele_glatt"] = (df["ele"].rolling(window=10, min_periods=1).mean())
 
         logging.info("GPS-Daten erfolgreich geglättet.")
-
         return df
 
     except (KeyError, ValueError) as e:
         logging.error(e)
         raise
-
     except Exception as e:
         logging.error(
-            f"Fehler in glaette_gps(): {e}",
-            exc_info=True
-        )
+            f"Fehler in glaette_gps(): {e}", exc_info=True)
         raise
  
 
 def luftdruck_berechnung(rho_0, M, g, R, temp, h):
-
     T = temp + 273.15  # Umrechnung von °C in Kelvin
     rho = rho_0 * np.exp((-M * g * h) / (R * T))
     return rho
@@ -517,16 +492,6 @@ def simulation(df, masse, A, r_inch):
 
         b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
         b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-        simulatorb1 = BatterySimulator(b1)
-        simulatorb2 = BatterySimulator(b2)
-        simulatorb1.simulation_ladezustand(df)
-        simulatorb2.simulation_ladezustand(df)
-
-        soc_liste = simulatorb1.simulation_ladezustand(df)
-        df["SOC"] = soc_liste
-        simulatorb1.plot_ladezustand(df)
-        simulatorb2.plot_ladezustand(df)
-        logging.info("Batteriesimulation abgeschlossen.")
 
         logging.info("Simulation erfolgreich beendet.")
 
@@ -729,6 +694,16 @@ if __name__ == "__main__":
     df = pd.read_csv("final_project_input_data.csv", sep=";")
     results = {}
     df = simulation(df, masse=80, A=0.5625, r_inch=27)
+    simulatorb1 = BatterySimulator(b1)
+    simulatorb2 = BatterySimulator(b2)
+    simulatorb1.simulation_ladezustand(df)
+    simulatorb2.simulation_ladezustand(df)    
+    soc_liste = simulatorb1.simulation_ladezustand(df)
+    df["SOC"] = soc_liste
+    simulatorb1.plot_ladezustand(df)
+    simulatorb2.plot_ladezustand(df)
+    logging.info("Batteriesimulation abgeschlossen.")
+
     results = Kenngroessen(df)    
     #Ploten der Strecke auf einer Karte
     PlotStreckeAufKarte(df)

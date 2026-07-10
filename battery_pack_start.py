@@ -1,6 +1,7 @@
 import logging
-
-logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterypack.log")
+# Holt den Logger für dieses spezifische Modul
+logger = logging.getLogger(__name__)
+#logging.basicConfig(format="%(asctime)s:%(levelname)s: %(message)s", level=logging.INFO, filename="Batterypack.log")
 class BatteryPack:
     """
     Simple model of a battery pack as a single cell.
@@ -34,11 +35,13 @@ class BatteryPack:
 
     def apply_current(self, current: float, duration: float) -> None:
         """Modify the SoC based on the applied current & duration"""
+        old_soc = self.soc
+
         self.soc = self.soc - (current * duration ) / self.capacity_nom_As
         self.soc = max(0, min(1, self.soc))
-        if self.soc == 0:
+        if self.soc == 0 and old_soc > 0:     # Durch Hinzufügen der Variable old_soc verhindert, dass die logging Meldung zu oft gespeichert wird (z.B. durch Parameterstudien)
             logging.warning("Batterie ist vollständig entladen!")
-        if self.soc == 1:
+        if self.soc == 1 and old_soc < 1:     # Durch Hinzufügen der Variable old_soc verhindert, dass die logging Meldung zu oft gespeichert wird (z.B. durch Parameterstudien)
             logging.info("Batterie ist vollständig geladen.")
 
     def is_empty(self) -> bool:
@@ -64,7 +67,7 @@ class BatteryPack:
 
 if __name__ == "__main__":
 
-    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7, Vmin=32.0, Vmax=42.0)
+    battery = BatteryPack(capacity_nom_cell_Ah=10, initial_soc=0.7,anz_parallel = 2 )
     print(battery)
 
     battery.apply_current(current=5.0, duration=300.0)
