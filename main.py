@@ -489,10 +489,6 @@ def simulation(df, masse, A, r_inch):
         df["I_motor"] = df["T_drehmoment"] / m_konst                                                    # Berechnung Motorstrom bei bekannter Motorkonstante
         df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
         logging.info("Motorstrom berechnet.")
-
-        b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-        b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-
         logging.info("Simulation erfolgreich beendet.")
 
         return df
@@ -694,6 +690,8 @@ if __name__ == "__main__":
     df = pd.read_csv("final_project_input_data.csv", sep=";")
     results = {}
     df = simulation(df, masse=80, A=0.5625, r_inch=27)
+    b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
+    b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
     simulatorb1 = BatterySimulator(b1)
     simulatorb2 = BatterySimulator(b2)
     simulatorb1.simulation_ladezustand(df)

@@ -1,6 +1,6 @@
 # Abschlussprojekt-Programmieren-I
 
-Dieses Python-Projekt ist ein umfassender Simulator für E-Bike-Fahrten basierend auf den vorgegebenen GPS-Daten in der `final_project_input_data.csv` Datei. Auf Basis der eingelesenen und sensorisch erfassten GPS-Rohdaten führt das Simulationsmodell eine sekundengenaue Analyse der Fahrdynamik durch, aus welcher sowohl kontinuierliche Fahr- und Motorparameter als auch globale Kennzahlen der gesamten Fahrt abgeleitet werden. Zudem werden zwei unterschiedliche Akku-Technologien (**LiFePO4** und **NMC**) simuliert.
+Dieses Python-Projekt ist ein umfassender Simulator für E-Bike-Fahrten basierend auf den vorgegebenen GPS-Daten in der `final_project_input_data.csv` Datei. Auf Basis der eingelesenen und sensorisch erfassten GPS-Rohdaten führt das Simulationsmodell eine Analyse der Fahrdynamik durch, aus welcher sowohl kontinuierliche Fahr- und Motorparameter als auch globale Kennzahlen der gesamten Fahrt abgeleitet werden. Zudem werden zwei unterschiedliche Akku-Technologien (**LiFePO4** und **NMC**) simuliert.
 
 ## Features & Funktionsumfang
 
@@ -12,21 +12,21 @@ Aus den eingelesenen GPS-Rohdaten (`final_project_input_data.csv`) werden folgen
 
 ### 2. Akku- & Entladesimulation (`Akku.py` & `battery_simulator_start.py`)
 - **Zwei Akkutypen:** Simulation von Lithium-Eisenphosphat (**LiFePO**) und Lithium-Nickel-Mangan-Cobalt-Oxid (**NMC**) Packs mit individuellen Innenwiderständen und nicht-linearen Kennlinien.
-- **Ladungs-Tracking:** Kontinuierliche Berechnung und ausgabe als Plot des State of Charge (SOC) während der Fahrt.
+- **Ladungs-Tracking:** Kontinuierliche Berechnung und Ausgabe als Plot des State of Charge (SOC) während der Fahrt.
 
 ### 3. Erweiterte Features & Auswertungen
 - **Interaktive Karten:** Plotten der originalen vs. geglätteten Route auf einer interaktiven `folium`-Karte (gespeichert als HTML und automatisiert als PNG gespeichert via Selenium).
 - **Farbe-codiertes Höhenprofil:** Darstellung der Strecke, bei der die Linie je nach Steigungsprozentsatz die Farbe ändert.
 - **Automatisierte Parameterstudien:** Untersuchung des Einflusses von Systemmasse, Stirnfläche ($A \cdot c_w$) und Reifengröße auf die Maximalleistung ($P_{max}$).
 - **Reverse Geocoding:** Automatisierte Abfrage von Orts- und Stadtnamen entlang der GPS-Koordinaten über die OpenStreetMap Nominatim-API.
-- **LaTeX-Report:** Automatische Erstellung eines PDF-fähigen Berichts mit allen statistischen Kennzahlen und Plots der Fahrt.
+- **LaTeX-Report:** Automatische Erstellung eines LaTeX Berichts mit allen statistischen Kennzahlen und Plots der Fahrt.
 - **Robustheit:** Vollständiges Exception-Handling und detailliertes dateibasiertes Logging (`Main.log`).
 
 ---
 
 ## Installation
 
-Folge diesen Schritten, um das Projekt auf deinem lokalen System einzurichten und auszuführen.
+Folgen Sie diesen Schritten, um das Projekt auf deinem lokalen System einzurichten und auszuführen.
 
 ### Voraussetzungen
 * **Python:** Sicherstellen, dass Python (Version $\ge$ 3.10) auf dem System installiert ist.
@@ -34,21 +34,21 @@ Folge diesen Schritten, um das Projekt auf deinem lokalen System einzurichten un
   python --version
 
 ### 1. Repository klonen
-* Öffne dein Terminal (oder die Eingabeaufforderung) und lade das Projekt von GitHub herunter:
+* Terminal öffnen und Projekt von GitHub herunterladen/clonen:
 * ```bash
   git clone [https://github.com/Hrubsch/Abschlussprojekt-Programmieren-I](https://github.com/Hrubsch/Abschlussprojekt-Programmieren-I)
   cd Abschlussprojekt-Programmieren-I
 
 ### 2. Benötigte Pakete installieren
-* Die für die mathematischen Berechnungen, Datenverarbeitungen, APIs und Diagramme erforderlichen Bibliotheken sind in der Datei requirements.txt  hinterlegt. Installiere diese systemweit mit folgendem Befehl:
+* Die für die mathematischen Berechnungen, Datenverarbeitungen, APIs und Diagramme erforderlichen Bibliotheken sind in der Datei requirements.txt  hinterlegt. Diese müssen mit folgendem Befehl installiert werden:
 * ```Bash
   pip install -r requirements.txt
 ### 3. Optionale System-Erweiterung für den PNG-Kartenexport
-Das Programm speichert die gefahrene Strecke als interaktive HTML-Datei. Falls du möchtest, dass diese zusätzlich vollautomatisch als statische .png-Grafik abgesichert wird, benötigt die im Hintergrund genutzte Python-Bibliothek Zugriff auf einen Browser-Treiber (z. B. Geckodriver für Firefox oder ChromeDriver für Google Chrome), welcher in den System-Umgebungsvariablen (PATH) hinterlegt sein muss. Die Hauptsimulation läuft jedoch auch ohne diese Grafik problemlos durch.
+Das Programm speichert die gefahrene Strecke als interaktive HTML-Datei. Diese kann auch zusätzlich als statische .png-Grafik gespeichert werden, dafür braucht die im Hintergrund genutzte Python-Bibliothek Zugriff auf einen Browser-Treiber (z. B. Geckodriver für Firefox oder ChromeDriver für Google Chrome), welcher in den System-Umgebungsvariablen (PATH) hinterlegt sein muss. Die Hauptsimulation läuft jedoch auch ohne diese Grafik problemlos durch.
 
 ## Ableitung zur Ausführung
 ### 1. Hauptprogramm ausführen (Gesamte Simulation)
-Um die Hauptsimulation zu starten, die GPS-Daten einzulesen, Berechnungen anzustellen und alle Grafiken sowie Parameterstudien zu erzeugen, führe das `main.py` Skript aus.
+Um die Hauptsimulation zu starten, die GPS-Daten einzulesen, Berechnungen anzustellen und alle Grafiken sowie Parameterstudien zu erzeugen, muss das `main.py` Skript ausgeführt werden.
 Erzeugte Outputs & Grafiken:
 - `Output.csv`: Die berechneten Datenreihen im CSV-Format.
 - `strecke_karte_vergleich.html` & `strecke_karte_abbildung.png`: Interaktive und statische Routenkarte.
@@ -58,9 +58,9 @@ Erzeugte Outputs & Grafiken:
 - `Parameterstudie_*.png`: Ergebnisse der Parameterstudien.
 - `Main.log`: Protokolldatei mit Systemzuständen und Fehlermeldungen.
 ### 2. Akkumodell testen (`Akku.py`)
-Führe das Akku-Modul (`Akku.py`) direkt aus, um im `__main__`-Block automatisch den Schutz vor Falscheingaben (z. B. Start-SOC von $150\%$), die schrittweise Entladung sowie den Plot der unterschiedlichen Spannungskennlinien zu überprüfen. Die Ergebnisse der Simulation und Fehlermeldungen werden im Terminal ausgegeben und der Plot der Spannungskennlinien öffnet sich.
+Das Akku-Modul (`Akku.py`) muss direkt ausgeführt werden, um im `__main__`-Block automatisch den Schutz vor Falscheingaben (z. B. Start-SOC von $150\%$), die schrittweise Entladung sowie den Plot der unterschiedlichen Spannungskennlinien zu überprüfen. Die Ergebnisse der Simulation und Fehlermeldungen werden im Terminal ausgegeben und der Plot der Spannungskennlinien öffnet sich.
 ### 3. Batteriesimulator testen (`battery_simulator_start.py`)
-Führe den Simulator (`battery_simulator_start.py`) separat aus, um die vordefinierten Extremszenarien im Fahrbetrieb zu prüfen. Die Ergebnisse der Simulation und Fehlermeldungen werden im Terminal ausgegeben.
+Der Simulator (`battery_simulator_start.py`) muss separat ausgeführt werden, um die vordefinierten Extremszenarien im Fahrbetrieb zu prüfen. Die Ergebnisse der Simulation und Fehlermeldungen werden im Terminal ausgegeben.
 Dieses Testskript validiert im `__main__`-Block automatisch:
 - Normalen Fahrbetrieb: Korrektes Zusammenspiel aus Energieverbrauch und Rekuperation (Laden durch Bremsen/Bergabfahren).
 - Tiefenentladungsschutz: Verhalten des SOC bei langanhaltendem, extrem hohem Stromverbrauch.

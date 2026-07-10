@@ -732,3 +732,41 @@
 2026-07-09 21:53:42,880:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_lifepo.png' gespeichert.
 2026-07-09 21:53:42,965:INFO: Plot des Ladezustands wurde erfolgreich als 'SOC_nmc.png' gespeichert.
 2026-07-09 21:53:43,081:WARNING: Ende der Parameterstudie
+2026-07-10 08:27:16,696:INFO: Simulation gestartet.
+2026-07-10 08:27:16,696:INFO: Eingabedaten erfolgreich geprüft.
+2026-07-10 08:27:16,696:INFO: Konstanten initialisiert.
+2026-07-10 08:27:16,696:INFO: Starte Glättung der GPS-Daten.
+2026-07-10 08:27:16,698:INFO: GPS-Daten erfolgreich geglättet.
+2026-07-10 08:27:16,698:INFO: GPS-Daten geglättet.
+2026-07-10 08:27:16,698:INFO: Berechne Himmelsrichtung.
+2026-07-10 08:27:16,702:INFO: Himmelsrichtung erfolgreich berechnet.
+2026-07-10 08:27:16,702:INFO: Himmelsrichtung berechnet.
+2026-07-10 08:27:16,707:INFO: Zeitdaten berechnet.
+2026-07-10 08:27:16,707:INFO: Starte Haversine-Berechnung.
+2026-07-10 08:27:16,708:INFO: Haversine-Berechnung erfolgreich.
+2026-07-10 08:27:16,710:INFO: Starte Haversine-Berechnung.
+2026-07-10 08:27:16,711:INFO: Haversine-Berechnung erfolgreich.
+2026-07-10 08:27:16,711:INFO: Strecke berechnet.
+2026-07-10 08:27:16,713:INFO: Geschwindigkeit berechnet.
+2026-07-10 08:27:16,714:INFO: Beschleunigung berechnet.
+2026-07-10 08:27:16,715:INFO: Steigungswinkel berechnet.
+2026-07-10 08:27:16,715:INFO: Luftdichte berechnet.
+2026-07-10 08:27:16,717:INFO: Kräfte berechnet.
+2026-07-10 08:27:16,717:INFO: Leistung berechnet.
+2026-07-10 08:27:16,717:INFO: Drehmoment berechnet.
+2026-07-10 08:27:16,718:INFO: Motorstrom berechnet.
+2026-07-10 08:27:16,718:INFO: Simulation erfolgreich beendet.
+2026-07-10 08:27:16,718:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-10 08:27:16,718:INFO: BatteryPack erfolgreich initialisiert.
+2026-07-10 08:27:16,718:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-10 08:27:16,718:INFO: BatterySimulator erfolgreich initialisiert.
+2026-07-10 08:27:16,718:INFO: Starte Simulation des Ladezustands
+2026-07-10 08:27:16,771:WARNING: Batterie ist vollständig entladen!
+2026-07-10 08:27:16,775:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-10 08:27:16,775:INFO: Starte Simulation des Ladezustands
+2026-07-10 08:27:16,828:WARNING: Batterie ist vollständig entladen!
+2026-07-10 08:27:16,832:INFO: Simulation beendet. 2284 Werte verarbeitet.
+2026-07-10 08:27:16,832:INFO: Starte Simulation des Ladezustands
+2026-07-10 08:27:16,835:INFO: Batterie ist vollständig geladen.
+2026-07-10 08:27:16,884:WARNING: Batterie ist vollständig entladen!
+2026-07-10 08:27:16,887:INFO: Simulation beendet. 2284 Werte verarbeitet.
