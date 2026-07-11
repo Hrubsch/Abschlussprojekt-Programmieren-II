@@ -1,0 +1,8 @@
+# Ignore generated logs and temporary Python artifacts
+Batterypack.log
+*.log
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
