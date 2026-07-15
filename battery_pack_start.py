@@ -13,7 +13,7 @@ class BatteryPack:
         self,
         capacity_nom_cell_Ah : float = 10,
         initial_soc: float = 1.0,
-        anz_parallel = 2,
+        anz_parallel: float = 2,
         
   
     ):

@@ -126,7 +126,7 @@ def haversine(
         )
         raise
 
-def glaette_gps(df: pd.DataFrame)-> pd.Dataframe:
+def glaette_gps(df: pd.DataFrame)-> pd.DataFrame:
     """
     glättet GPS Daten mit pandas .rolling Funktion
     """
@@ -156,7 +156,7 @@ def glaette_gps(df: pd.DataFrame)-> pd.Dataframe:
         raise
  
 
-def luftdruck_berechnung(rho_0, M, g, R, temp, h):
+def luftdruck_berechnung(rho_0: float, M: float, g: float, R: float , temp: float, h: float) -> float:
     """
     Berechnet Luftdruck abhängig von Termperatur und Höhe
     """
@@ -313,21 +313,6 @@ def hoehenprofil_steigung(df : pd.DataFrame)-> None:
     except Exception as e:
         logging.error(f"Unerwarteter Fehler bei der Diagrammerstellung: {e}", exc_info=True)
 
-def get_ort(lat, lon):
-    """Wandelt Breitengrad und Längengrad in eine lesbare Adresse um."""
-    try:
-        # Ein eindeutiger user_agent ist für den Nominatim-Dienst zwingend erforderlich
-        geolocator = Nominatim(user_agent="abschlussprojekt_ebike_tour_simulator")
-        location = geolocator.reverse((lat, lon), timeout=10) #timeout gibt max. Zeit an, die auf eine Antwort der API gewartet wird bevor die Verbindung abgebrochen wird
-        if location: # true wenn location erkannt wird
-            address = location.raw.get("address", {})
-            # Versuche den Stadtnamen oder das Dorf zu erkennen, erkennd kleinste urbane Einheit 
-            ort = address.get("village") or address.get("town") or address.get("city") or address.get("suburb")
-            # Falls kein spezifischer Ort gefunden wurde, nimm die formatierte Adresse
-            return ort if ort else location.address
-        return "Unbekannter Ort"
-    except Exception as e:
-        return f"Fehler bei der Abfrage ({e})"
 
 def reverse_goecoding(df : pd.DataFrame) -> list[str]:
     """Ermitteln der durchfahrenen Orte und ausgabe als Liste von str"""

@@ -80,7 +80,7 @@ class BatterySimulator:
         logging.info(f"Simulation beendet. {len(self.soc_liste)} Werte verarbeitet.")    
         return self.soc_liste
 
-    def plot_ladezustand(self, spalten_name,df):
+    def plot_ladezustand(self, spalten_name: float,df : pd.DataFrame):
         """ploten des Ladezustandes"""
 
         fig, ax = plt.subplots()
@@ -93,7 +93,7 @@ class BatterySimulator:
         plt.savefig(f"{spalten_name}.png")
         plt.close(fig)
         logging.info(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
-        print(f"Plot des Ladezustands wurde erfolgreich als '{spalten_name}.png' gespeichert.") 
+        
 
 
 if __name__ == "__main__":
