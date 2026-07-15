@@ -37,7 +37,6 @@ Folgen Sie diesen Schritten, um das Projekt auf deinem lokalen System einzuricht
 * Terminal öffnen und Projekt von GitHub herunterladen/clonen:
 * ```bash
   git clone https://github.com/Hrubsch/Abschlussprojekt-Programmieren-I
-  cd Abschlussprojekt-Programmieren-I
 
 ### 2. Benötigte Pakete installieren
 * Die für die mathematischen Berechnungen, Datenverarbeitungen, APIs und Diagramme erforderlichen Bibliotheken sind in der Datei requirements.txt  hinterlegt. Diese müssen mit folgendem Befehl installiert werden:
