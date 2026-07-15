@@ -543,19 +543,18 @@ def simulation(
         df["I_motor"] = df["I_motor"].rolling(window=25, center=True, min_periods=1).mean()             # Glättung des Motorstroms   
         logging.info("Motorstrom berechnet.")
 
-        b1 = lifepo(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-        b2 = nmc(capacity_nom_cell_Ah=20.0, initial_soc=1.0)
-        simulatorb1 = BatterySimulator(b1)
-        simulatorb2 = BatterySimulator(b2)
-        simulatorb1.simulation_ladezustand(df)
-        simulatorb2.simulation_ladezustand(df)    
-        soc_liste = simulatorb1.simulation_ladezustand(df)
+        #Simulation des Laddezustande der beiden Akkutypen
+        b1 = lifepo(capacity_nom_cell_Ah=30.0, initial_soc=1.0)     # Ertellen einer Instanz des lifepo Akkus
+        b2 = nmc(capacity_nom_cell_Ah=30.0, initial_soc=1.0)        # Erstellen einer Instanz des nmc Akkus
+        simulatorb1 = BatterySimulator(b1)                          # Erstellen eine Instanz der Klasse BatterySimulator
+        simulatorb2 = BatterySimulator(b2)                          # Erstellen eine Instanz der Klasse BatterySimulator
 
-        df["SOC"] = soc_liste
-        simulatorb1.plot_ladezustand("SOC", df)
-        simulatorb2.plot_ladezustand("SOC", df)
-        logging.info("Batteriesimulation abgeschlossen.")
-
+        soc_liste_lifepo = simulatorb1.simulation_ladezustand(df)   # Speichern der durch die Methode simulation_ladezustand zurück gegebenen Liste an Ladezuständen
+        soc_liste_nmc = simulatorb2.simulation_ladezustand(df)      # Speichern der durch die Methode simulation_ladezustand zurück gegebenen Liste an Ladezuständen
+        df["SOC_lifepo"] = soc_liste_lifepo                         # Hinzufügen einer neuen Spalte im Pandas-DataFrame für den SOC
+        df["SOC_nmc"] = soc_liste_nmc                               # Hinzufügen einer neuen Spalte im Pandas-DataFrame für den SOC
+        simulatorb1.plot_ladezustand("SOC_lifepo",df)               # ploten und als .png Speichern des Ladezustandes über die Zeit mit der plot_ladezustand Methode
+        simulatorb2.plot_ladezustand("SOC_nmc",df)                  # ploten und als .png Speichern des Ladezustandes über die Zeit mit der plot_ladezustand Methode
         logging.info("Simulation erfolgreich beendet.")
 
         return df
