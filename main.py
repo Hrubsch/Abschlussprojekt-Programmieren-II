@@ -194,7 +194,7 @@ def PlotStreckeAufKarte(df : pd.DataFrame) -> None:
         end_lon = df_map_orig["lon"].iloc[-1]
 
         # Karte initialisieren (OpenStreetMap als Standard)
-        karte = folium.Map(location=[start_lat, start_lon], zoom_start=14)
+        karte = folium.Map(tiles="cartodb positron")
 
         # Koordinaten-Paare für die Linie (PolyLine) vorbereiten
         koordinaten_glatt = list(zip(df_map_glatt["lat_glatt"], df_map_glatt["lon_glatt"]))
