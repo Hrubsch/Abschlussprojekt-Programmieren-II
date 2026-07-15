@@ -96,11 +96,17 @@ Die zeitlichen Verläufe der berechneten System- und Fahrgrößen werden anschau
 ![I_motor](I_motor.png)
 ### 3. Entwicklung des Ladezustands über die Fahrt (LiFePO vs. NMC)
 Entladeverhalten der beiden simulierten Akkutypen über den Verlauf der Fahrt, welches für beide Akkutypen identisch ist:
+
 ![Ladezustand LiFePO](SOC_lifepo.png)
 
 ## UML-Diagramm
+In der nachfolgenden Abbildung ist das UML-Diagramm zu sehen.
 
+![UML-Diagramm](UML-Diagramm-Abschlussprojekt.png)
 ## Aktivitätsdiagramm
+In der nachfolgenden Abbildung ist das Aktivitätsdiagramm zu sehen.
+
+![Aktivitätsdiagramm](Aktivitätsdiagramm-Abschlussprojekt.png)
 
 
 
